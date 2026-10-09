@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', 'DM Sans', 'Manrope', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  h1, h2, .academic-serif {
+    font-family: 'Playfair Display', 'Libre Baskerville', Georgia, serif;
+  }
+}
+
+@layer utilities {
+  .font-serif,
+  .font-heading,
+  .font-display,
+  .font-headline-display,
+  .font-headline-xl,
+  .font-headline-lg {
+    font-family: 'Playfair Display', 'Libre Baskerville', Georgia, serif !important;
+  }
+
+  .font-sans,
+  .font-body,
+  .font-label,
+  .font-headline-md,
+  .font-headline-sm,
+  .font-body-lg,
+  .font-body-md,
+  .font-body-sm,
+  .font-label-lg,
+  .font-label-md,
+  .font-label-eyebrow {
+    font-family: 'Inter', 'DM Sans', 'Manrope', system-ui, -apple-system, sans-serif !important;
+  }
+
+  .academic-eyebrow {
+    font-family: 'Inter', 'DM Sans', sans-serif !important;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+
+  .academic-heading-display {
+    font-family: 'Playfair Display', 'Libre Baskerville', Georgia, serif !important;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+  }
+
+  .academic-heading-xl {
+    font-family: 'Playfair Display', 'Libre Baskerville', Georgia, serif !important;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.18;
+  }
+
+  .academic-heading-lg {
+    font-family: 'Playfair Display', 'Libre Baskerville', Georgia, serif !important;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+  }
+
+  .academic-card-title {
+    font-family: 'Inter', 'DM Sans', 'Manrope', sans-serif !important;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+
+  .academic-body {
+    font-family: 'Inter', 'DM Sans', 'Manrope', sans-serif !important;
+    line-height: 1.65;
+  }
+}
+

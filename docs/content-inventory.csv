@@ -1,0 +1,37 @@
+Page ID,Section / Category,Source URL / Reference,Page Title / Entity,Associated Documents / Data,Target Route / Anchor,Implementation Status
+NAV-01,Navigation,https://psvcet.ac.in/,Home / Campus Hero,"Hero Video (video-final.mp4), Stats, Overview",/#home,Implemented
+NAV-02,Navigation,https://psvcet.ac.in/about-us/,About PSVCET,"Trust History, Vision, Mission, Quality Policy",/#about-us,Implemented
+NAV-03,Navigation,https://psvcet.ac.in/admission/,Admissions,"Eligibility, Intake, Scholarships, Process",/#admission-section,Implemented
+NAV-04,Navigation,https://psvcet.ac.in/academics/,Academic Degree Programs,"UG & PG Degrees, Course Curricula",/#courses-matrix,Implemented
+NAV-05,Navigation,https://psvcet.ac.in/infrastructure/,Campus Infrastructure,"Library, Labs, Auditoriums, Hostels, Transport",/#facilities-section,Implemented
+NAV-06,Navigation,https://psvcet.ac.in/placement/,Placement Cell,"Stats, Recruiters, Highest Package, Testimonials",/#placement,Implemented
+NAV-07,Navigation,https://psvcet.ac.in/activities/,Activities & Student Life,"NSS, NCC, YRC, Clubs, Symposiums",/#events-section,Implemented
+NAV-08,Navigation,https://psvcet.ac.in/external-links/,External Portals & Accolades,"NAAC 'A' Grade, NBA Tier, Green Award",/#accolades-section,Implemented
+NAV-09,Navigation,https://psvcet.ac.in/gallery/,Photo & Video Gallery,"Convocation, Workshops, Cultural, 1080p Video",/#facilities-section,Implemented
+NAV-10,Navigation,https://psvcet.ac.in/contact/,Contact Registry & Map,"Helpline, Email, Location, Enquiry Form",/#admission-section,Implemented
+UTIL-01,Utility,https://psvcet.ac.in/iqac/,IQAC Cell,"Quality Manual, AQAR, Committee List",/iqac-portal,Expanded View
+UTIL-02,Utility,https://psvcet.ac.in/naac/,NAAC Accreditation,"NAAC 'A' Grade Certificate, SSR Data",/naac-portal,Expanded View
+UTIL-03,Utility,https://psvcet.ac.in/nba/,NBA Accreditation,"NBA CSE Accreditation, SAR Document",/nba-portal,Expanded View
+UTIL-04,Utility,https://psvcet.ac.in/mandatory-disclosure/,Mandatory Disclosure,"AICTE 2024-25 Mandatory Disclosure PDF",/mandatory-disclosure,Expanded View
+UTIL-05,Utility,https://psvcet.ac.in/erp/,ERP Portal,"Student / Staff Cloud ERP Management",/erp-portal,External / Modal
+UTIL-06,Utility,https://psvcet.ac.in/bus-route/,Transport Directory,"30+ Bus Routes with Stops & Timings",/bus-routes,Expanded View
+UTIL-07,Utility,https://psvcet.ac.in/nirf/,NIRF Data Hub,"NIRF Engineering & Overall Reports",/nirf-reports,Expanded View
+DEPT-01,Department,https://psvcet.ac.in/cse/,B.E. Computer Science & Engg,"NBA Accredited, 120 Seats, AICTE/AU Syllabi",/dept/cse,Interactive Modal / Hub
+DEPT-02,Department,https://psvcet.ac.in/aids/,B.Tech AI & Data Science,"120 Seats, Deep Learning, GPU Labs",/dept/aids,Interactive Modal / Hub
+DEPT-03,Department,https://psvcet.ac.in/csecs/,B.E. CSE (Cyber Security),"120 Seats, Forensics, Defense Protocols",/dept/csecs,Interactive Modal / Hub
+DEPT-04,Department,https://psvcet.ac.in/it/,B.Tech Information Technology,"120 Seats, Cloud, DevOps, Enterprise Systems",/dept/it,Interactive Modal / Hub
+DEPT-05,Department,https://psvcet.ac.in/ece/,B.E. Electronics & Communication,"60 Seats, VLSI, Embedded IoT, Wireless",/dept/ece,Interactive Modal / Hub
+DEPT-06,Department,https://psvcet.ac.in/eee/,B.E. Electrical & Electronics,"60 Seats, Power Grids, EV Traction, Solar",/dept/eee,Interactive Modal / Hub
+DEPT-07,Department,https://psvcet.ac.in/mech/,B.E. Mechanical Engineering,"60 Seats, CAD/CAM, Robotics, CNC",/dept/mech,Interactive Modal / Hub
+DEPT-08,Department,https://psvcet.ac.in/bme/,B.E. Biomedical Engineering,"30 Seats, Diagnostic Imaging, Biosensors",/dept/bme,Interactive Modal / Hub
+DEPT-09,Department,https://psvcet.ac.in/civil/,B.E. Civil Engineering,"30 Seats, Structural Engineering, GIS",/dept/civil,Interactive Modal / Hub
+DEPT-10,Department,https://psvcet.ac.in/mba/,Master of Business Administration,"120 Seats, Dual Specialization, Finance, HR",/dept/mba,Interactive Modal / Hub
+DEPT-11,Department,https://psvcet.ac.in/me-cse/,M.E. Computer Science & Engg,"18 Seats, Advanced Computing & Cloud",/dept/me-cse,Interactive Modal / Hub
+DEPT-12,Department,https://psvcet.ac.in/me-embedded/,M.E. Embedded System Tech,"18 Seats, RTOS, SoC Architecture",/dept/me-embedded,Interactive Modal / Hub
+DEPT-13,Department,https://psvcet.ac.in/me-struct/,M.E. Structural Engineering,"18 Seats, Seismic Dynamics, Prestressed Concrete",/dept/me-struct,Interactive Modal / Hub
+ACAD-01,Academic,https://psvcet.ac.in/regulations/,Autonomous Regulations,"Anna University R-2021 & R-2024 Guidelines",/academics/regulations,Interactive Modal / Hub
+ACAD-02,Academic,https://psvcet.ac.in/coe/,Autonomous Examination Cell (COE),"Exam Schedules, Result Portals, Revaluation",/academics/coe,Interactive Modal / Hub
+ACAD-03,Academic,https://psvcet.ac.in/calendar/,Academic Calendar,"Semester Schedules & Working Days 2024-25",/academics/calendar,Interactive Modal / Hub
+AUTH-01,Backend,Internal API,/api/enquiry,"Full enquiry validation, persistent logging",/api/enquiry,FastAPI Backend
+AUTH-02,Backend,Internal API,/api/bus-routes,"Searchable route lookup for 30+ towns",/api/bus-routes,FastAPI Backend
+AUTH-03,Backend,Internal API,/api/syllabus-download,"Download official department syllabi",/api/syllabus,FastAPI Backend

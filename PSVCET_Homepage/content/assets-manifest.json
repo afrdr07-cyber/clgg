@@ -1,0 +1,842 @@
+[
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/logo-main-l.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/logo-main-l.png",
+    "bytes": 249186,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/r-head.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/r-head.png",
+    "bytes": 137268,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/r-head-300x132.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/r-head-300x132.png",
+    "bytes": 34085,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/logo-main-w-png-1.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/logo-main-w-png-1.png",
+    "bytes": 302077,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/Logo-web.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/Logo-web.png",
+    "bytes": 181318,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/psv-carousel-camp.jpg",
+    "category": "images",
+    "alt": "psv-carousel-camp",
+    "local_path": "assets/images/psv-carousel-camp.jpg",
+    "bytes": 223408,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/award.jpg",
+    "category": "images",
+    "alt": "award",
+    "local_path": "assets/images/award.jpg",
+    "bytes": 133129,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/carousel-psv3.jpg",
+    "category": "images",
+    "alt": "carousel-psv3",
+    "local_path": "assets/images/carousel-psv3.jpg",
+    "bytes": 184870,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/08/Celebrate-Each-Milestone-carousel.jpg",
+    "category": "images",
+    "alt": "Celebrate Each Milestone-carousel",
+    "local_path": "assets/images/Celebrate-Each-Milestone-carousel.jpg",
+    "bytes": 221115,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/carousel-psv1.jpg",
+    "category": "images",
+    "alt": "carousel-psv1",
+    "local_path": "assets/images/carousel-psv1.jpg",
+    "bytes": 220426,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/opportunity.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/opportunity.png",
+    "bytes": 42776,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/opportunity-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/opportunity-300x300.png",
+    "bytes": 31787,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/opportunity-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/opportunity-150x150.png",
+    "bytes": 14406,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/bullseye-1.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/bullseye-1.png",
+    "bytes": 53307,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/bullseye-1-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/bullseye-1-300x300.png",
+    "bytes": 19854,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/bullseye-1-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/bullseye-1-150x150.png",
+    "bytes": 8743,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/diamond-1-1.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/diamond-1-1.png",
+    "bytes": 18373,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/diamond-1-1-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/diamond-1-1-300x300.png",
+    "bytes": 9735,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/diamond-1-1-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/diamond-1-1-150x150.png",
+    "bytes": 3952,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/la-ab-us.jpg",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/la-ab-us.jpg",
+    "bytes": 222636,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/la-ab-us-300x180.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/la-ab-us-300x180.jpg",
+    "bytes": 36721,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/la-ab-us-768x461.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/la-ab-us-768x461.jpg",
+    "bytes": 115059,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/04/psv.main_.1.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/psv.main_.1.png",
+    "bytes": 231106,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/04/psv-boy-1.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/psv-boy-1.png",
+    "bytes": 290054,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/04/psv-boy-1-300x200.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/psv-boy-1-300x200.png",
+    "bytes": 90994,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/psv.girl_.3.3.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/psv.girl_.3.3.png",
+    "bytes": 279058,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/psv.girl_.3.3-300x200.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/psv.girl_.3.3-300x200.png",
+    "bytes": 80466,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/engineer.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/engineer.png",
+    "bytes": 16632,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/web-programming-1.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/web-programming-1.png",
+    "bytes": 8896,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/it-service.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/it-service.png",
+    "bytes": 19903,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/plugin.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/plugin.png",
+    "bytes": 16775,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/cloud.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/cloud.png",
+    "bytes": 16014,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/settings.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/settings.png",
+    "bytes": 27803,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/chip.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/chip.png",
+    "bytes": 12679,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/brain.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/brain.png",
+    "bytes": 17489,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/dna.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/dna.png",
+    "bytes": 25182,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/lattice.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/lattice.png",
+    "bytes": 20459,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/web-programming.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/web-programming.png",
+    "bytes": 14722,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/chip2.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/chip2.png",
+    "bytes": 13981,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/budget.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/budget.png",
+    "bytes": 14333,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/landing-page-right.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/landing-page-right.png",
+    "bytes": 536985,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/landing-page-right-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/landing-page-right-300x300.png",
+    "bytes": 136667,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/landing-page-right-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/landing-page-right-150x150.png",
+    "bytes": 39837,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/graduated.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/graduated.png",
+    "bytes": 6037,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/graduated-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/graduated-300x300.png",
+    "bytes": 13597,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/graduated-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/graduated-150x150.png",
+    "bytes": 7054,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/book.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/book.png",
+    "bytes": 5192,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/book-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/book-300x300.png",
+    "bytes": 10951,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/book-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/book-150x150.png",
+    "bytes": 5283,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/teacher.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/teacher.png",
+    "bytes": 5541,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/teacher-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/teacher-300x300.png",
+    "bytes": 10773,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/teacher-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/teacher-150x150.png",
+    "bytes": 5642,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/psv-graduates.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/psv-graduates.png",
+    "bytes": 7188,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/psv-graduates-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/psv-graduates-300x300.png",
+    "bytes": 16681,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/psv-graduates-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/psv-graduates-150x150.png",
+    "bytes": 8937,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/civil-dept-03.png",
+    "category": "images",
+    "alt": "Chemistry Lab",
+    "local_path": "assets/images/civil-dept-03.png",
+    "bytes": 168001,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/grid-3.png",
+    "category": "images",
+    "alt": "Physics Lab",
+    "local_path": "assets/images/grid-3.png",
+    "bytes": 84101,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/grid-7.png",
+    "category": "images",
+    "alt": "ECE Lab",
+    "local_path": "assets/images/grid-7.png",
+    "bytes": 89036,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/grid-6.png",
+    "category": "images",
+    "alt": "Machanical Lab",
+    "local_path": "assets/images/grid-6.png",
+    "bytes": 88821,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/grid-4.png",
+    "category": "images",
+    "alt": "Computer Lab",
+    "local_path": "assets/images/grid-4.png",
+    "bytes": 115812,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/grid-5.png",
+    "category": "images",
+    "alt": "Library",
+    "local_path": "assets/images/grid-5.png",
+    "bytes": 97384,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/civil_dept.png",
+    "category": "images",
+    "alt": "civil_dept",
+    "local_path": "assets/images/civil_dept.png",
+    "bytes": 96266,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-1-1024x726.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/Certificate-1-1024x726.png",
+    "bytes": 182079,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-1-300x213.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-1-300x213.png",
+    "bytes": 26983,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-1-768x544.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-1-768x544.png",
+    "bytes": 115247,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-1-1536x1088.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-1-1536x1088.png",
+    "bytes": 355850,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-1.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-1.png",
+    "bytes": 154965,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-2-1024x726.jpg",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/Certificate-2-1024x726.jpg",
+    "bytes": 105927,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-2-300x213.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-2-300x213.jpg",
+    "bytes": 17544,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-2-768x544.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-2-768x544.jpg",
+    "bytes": 68674,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-2-1536x1088.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-2-1536x1088.jpg",
+    "bytes": 192471,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-2.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-2.jpg",
+    "bytes": 168215,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/District-Green-Champion-Award-2024-1024x726.jpg",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/District-Green-Champion-Award-2024-1024x726.jpg",
+    "bytes": 85272,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/District-Green-Champion-Award-2024-300x213.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/District-Green-Champion-Award-2024-300x213.jpg",
+    "bytes": 17017,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/District-Green-Champion-Award-2024-768x544.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/District-Green-Champion-Award-2024-768x544.jpg",
+    "bytes": 57013,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/District-Green-Champion-Award-2024-1536x1088.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/District-Green-Champion-Award-2024-1536x1088.jpg",
+    "bytes": 148239,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/District-Green-Champion-Award-2024.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/District-Green-Champion-Award-2024.jpg",
+    "bytes": 174284,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-3-1024x726.jpg",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/Certificate-3-1024x726.jpg",
+    "bytes": 133475,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-3-300x213.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-3-300x213.jpg",
+    "bytes": 20395,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-3-768x544.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-3-768x544.jpg",
+    "bytes": 85888,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-3-1536x1088.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-3-1536x1088.jpg",
+    "bytes": 244635,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/Certificate-3.jpg",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Certificate-3.jpg",
+    "bytes": 305531,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/ATAL-FDP.jpg",
+    "category": "images",
+    "alt": "ATAL Sponsored FDP on “The Future of Quantum Computing &  High-Performance Computing (HPC)” on 23-28 Dec 2024",
+    "local_path": "assets/images/ATAL-FDP.jpg",
+    "bytes": 205280,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/12/MBA-Recent-news.jpg",
+    "category": "images",
+    "alt": "Department of Master of Business Administration organizes Power Seminar on Campus to Corporate",
+    "local_path": "assets/images/MBA-Recent-news.jpg",
+    "bytes": 186249,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/03/Hexaware-placement-23.jpg",
+    "category": "logos",
+    "alt": "Hexaware Technologies Limited, Chennai On Campus Drive on 5-9-2023, Salary Package: 6 LPA",
+    "local_path": "assets/logos/Hexaware-placement-23.jpg",
+    "bytes": 160621,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l11.png",
+    "category": "logos",
+    "alt": "HEXAWARE",
+    "local_path": "assets/logos/placments-l11.png",
+    "bytes": 8026,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l1.png",
+    "category": "logos",
+    "alt": "MOVATE",
+    "local_path": "assets/logos/placments-l1.png",
+    "bytes": 11763,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/ascent-1.png",
+    "category": "logos",
+    "alt": "ascent",
+    "local_path": "assets/logos/ascent-1.png",
+    "bytes": 9218,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l7.png",
+    "category": "logos",
+    "alt": "DEV CARE",
+    "local_path": "assets/logos/placments-l7.png",
+    "bytes": 8949,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l2.png",
+    "category": "logos",
+    "alt": "ARTIFEX",
+    "local_path": "assets/logos/placments-l2.png",
+    "bytes": 11784,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l4.png",
+    "category": "logos",
+    "alt": "SYRMA",
+    "local_path": "assets/logos/placments-l4.png",
+    "bytes": 10063,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l5.png",
+    "category": "logos",
+    "alt": "INTELLIPAAT",
+    "local_path": "assets/logos/placments-l5.png",
+    "bytes": 8108,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l6.png",
+    "category": "logos",
+    "alt": "INTIME SOLUTIONS",
+    "local_path": "assets/logos/placments-l6.png",
+    "bytes": 10389,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l8.png",
+    "category": "logos",
+    "alt": "placments-l8",
+    "local_path": "assets/logos/placments-l8.png",
+    "bytes": 8259,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l9.png",
+    "category": "logos",
+    "alt": "MCORETA",
+    "local_path": "assets/logos/placments-l9.png",
+    "bytes": 12543,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l10.png",
+    "category": "logos",
+    "alt": "ONEYES",
+    "local_path": "assets/logos/placments-l10.png",
+    "bytes": 12954,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/placments-l12.png",
+    "category": "logos",
+    "alt": "SKOLAR",
+    "local_path": "assets/logos/placments-l12.png",
+    "bytes": 7077,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/Logo-web-1024x1024.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/Logo-web-1024x1024.png",
+    "bytes": 527599,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/Logo-web-300x300.png",
+    "category": "responsive-images",
+    "alt": "",
+    "status": "downloaded",
+    "local_path": "assets/responsive-images/Logo-web-300x300.png",
+    "bytes": 76947
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/Logo-web-150x150.png",
+    "category": "responsive-images",
+    "alt": "",
+    "local_path": "assets/responsive-images/Logo-web-150x150.png",
+    "bytes": 26332,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/Logo-web-768x768.png",
+    "category": "responsive-images",
+    "alt": "",
+    "status": "downloaded",
+    "local_path": "assets/responsive-images/Logo-web-768x768.png",
+    "bytes": 329843
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2025/11/PSVCET-AUTONOMOUS-STATUS.png",
+    "category": "images",
+    "alt": "",
+    "local_path": "assets/images/PSVCET-AUTONOMOUS-STATUS.png",
+    "bytes": 601549,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/cropped-Logo-web-1-32x32.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/cropped-Logo-web-1-32x32.png",
+    "bytes": 3122,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/cropped-Logo-web-1-192x192.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/cropped-Logo-web-1-192x192.png",
+    "bytes": 52295,
+    "status": "downloaded"
+  },
+  {
+    "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/cropped-Logo-web-1-180x180.png",
+    "category": "logos",
+    "alt": "",
+    "local_path": "assets/logos/cropped-Logo-web-1-180x180.png",
+    "bytes": 47464,
+    "status": "downloaded"
+  }
+]

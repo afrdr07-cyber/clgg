@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "menu-1-ff030bb",
+    "items": [
+      {
+        "label": "HOME",
+        "url": "https://psvcet.ac.in/",
+        "children": []
+      },
+      {
+        "label": "ABOUT US",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "ABOUT COLLEGE",
+            "url": "https://psvcet.ac.in/about-college/",
+            "children": []
+          },
+          {
+            "label": "VISION & MISSION",
+            "url": "https://psvcet.ac.in/vision-misson/",
+            "children": []
+          },
+          {
+            "label": "ADMINISTRATION",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "FROM CHAIRMAN DESK",
+                "url": "https://psvcet.ac.in/chairman/",
+                "children": []
+              },
+              {
+                "label": "FROM SECRETARY DESK",
+                "url": "https://psvcet.ac.in/secretary/",
+                "children": []
+              },
+              {
+                "label": "FROM PRINCIPAL DESK",
+                "url": "https://psvcet.ac.in/principal/",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "CODE OF CONDUCT",
+            "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/6.1.2-Delegation-of-Powers.pdf",
+            "children": []
+          },
+          {
+            "label": "ORGANIZATIONAL STRUCTURE",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "SERVICE RULES",
+            "url": "https://psvcet.ac.in/service-rules/",
+            "children": []
+          },
+          {
+            "label": "COMMITTEE",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "STATURED BODY",
+                "url": "https://psvcet.ac.in/statured-body/",
+                "children": []
+              },
+              {
+                "label": "NON STATURED BODY",
+                "url": "https://psvcet.ac.in/non-statured-body/",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "AUDIT STATEMENT",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "2020 – 2021",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/Audit-statement-2020-2021.pdf",
+                "children": []
+              },
+              {
+                "label": "2021 – 2022",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/Audit-statement-2021-2022.pdf",
+                "children": []
+              },
+              {
+                "label": "2022 – 2023",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/aUDIT-STATEMENT-2022_2023.pdf",
+                "children": []
+              },
+              {
+                "label": "2023 – 2024",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/AUDIT-STATEMENT-2023_2024.pdf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "ADMISSION",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "B.E. / B.TECH",
+            "url": "https://psvcet.ac.in/b-e-b-tech/",
+            "children": []
+          },
+          {
+            "label": "B.E. / B.TECH Lateral",
+            "url": "https://psvcet.ac.in/b-e-b-tech-lateral/",
+            "children": []
+          },
+          {
+            "label": "M.E. / M.TECH",
+            "url": "https://psvcet.ac.in/m-e-m-tech-degree-courses/",
+            "children": []
+          },
+          {
+            "label": "MBA",
+            "url": "https://psvcet.ac.in/mba-degree-course/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "ACADEMICS",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "COURSES OFFERED",
+            "url": "https://psvcet.ac.in/courses-offered/",
+            "children": []
+          },
+          {
+            "label": "DEPARTMENTS",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "UG PROGRAMS",
+                "url": "https://psvcet.ac.in/",
+                "children": [
+                  {
+                    "label": "B.E – Civil Engineering",
+                    "url": "https://psvcet.ac.in/b-e-civil-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – Computer Science and Engineering",
+                    "url": "https://psvcet.ac.in/b-e-computer-science-and-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-electronics-and-communication-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "BE – ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "url": "https://psvcet.ac.in/electrical-and-electronics-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.TECH – INFORMATION TECHNOLOGY",
+                    "url": "https://psvcet.ac.in/b-tech-information-technology/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – MECHANICAL ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-mechanical-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.TECH – ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+                    "url": "https://psvcet.ac.in/artificial-intelligence-and-data-science/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – BIOMEDICAL ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-biomedical-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – CSE – Cyber Security",
+                    "url": "https://psvcet.ac.in/b-e-cse-cyber-security/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "PG PROGRAMS",
+                "url": "https://psvcet.ac.in/",
+                "children": [
+                  {
+                    "label": "MASTER OF BUSINESS ADMINISTRATION (MBA)",
+                    "url": "https://psvcet.ac.in/master-of-business-administration-mba/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E – Computer Science and Engineering",
+                    "url": "https://psvcet.ac.in/m-e-computer-science-and-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E Structural Engineering",
+                    "url": "https://psvcet.ac.in/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E – EMBEDDED SYSTEM TECHNOLOGIES",
+                    "url": "https://psvcet.ac.in/m-e-embedded-systems-technologies/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "SCIENCE & HUMANITIES",
+                "url": "https://psvcet.ac.in/science-humanities/",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "INFRASTRUCTURE",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "HOSTEL",
+            "url": "https://psvcet.ac.in/hostel/",
+            "children": []
+          },
+          {
+            "label": "LIBRARY",
+            "url": "https://psvcet.ac.in/library/",
+            "children": []
+          },
+          {
+            "label": "CLASS ROOMS",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "CONFERENCE HALL",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "SPORTS",
+            "url": "https://psvcet.ac.in/sports/",
+            "children": []
+          },
+          {
+            "label": "CIVIL LAB",
+            "url": "https://psvcet.ac.in/b-e-civil-lab/",
+            "children": []
+          },
+          {
+            "label": "ECE LAB",
+            "url": "https://psvcet.ac.in/ece-lab/",
+            "children": []
+          },
+          {
+            "label": "COMPUTER LAB",
+            "url": "https://psvcet.ac.in/computer-lab/",
+            "children": []
+          },
+          {
+            "label": "MECHANICAL LAB",
+            "url": "https://psvcet.ac.in/mechanical-lab/",
+            "children": []
+          },
+          {
+            "label": "PHYSICS & CHEMISTRY LAB",
+            "url": "https://psvcet.ac.in/physics-chemistry-lab/",
+            "children": []
+          },
+          {
+            "label": "FACILITIES",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "TRANSPORTATION",
+                "url": "https://psvcet.ac.in/transportation/",
+                "children": []
+              },
+              {
+                "label": "AUDITORIUM",
+                "url": "https://psvcet.ac.in/auditorium/",
+                "children": []
+              },
+              {
+                "label": "CANTEEN",
+                "url": "https://psvcet.ac.in/canteen/",
+                "children": []
+              },
+              {
+                "label": "Medical Room",
+                "url": "https://psvcet.ac.in/medical-room/",
+                "children": []
+              },
+              {
+                "label": "Yoga centre",
+                "url": "https://psvcet.ac.in/yoga-centre/",
+                "children": []
+              },
+              {
+                "label": "Gymnasium",
+                "url": "https://psvcet.ac.in/gymnasium/",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "menu-1-eb06963",
+    "items": [
+      {
+        "label": "PLACEMENT",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "PLACEMENT OBJECTIVES",
+            "url": "https://psvcet.ac.in/placement-objective/",
+            "children": []
+          },
+          {
+            "label": "PLACEMENT TEAM",
+            "url": "https://psvcet.ac.in/placement-team/",
+            "children": []
+          },
+          {
+            "label": "PLACEMENT TRAINING",
+            "url": "https://psvcet.ac.in/placement-training/",
+            "children": []
+          },
+          {
+            "label": "PLACEMENT RECORDS",
+            "url": "https://psvcet.ac.in/placement-records/",
+            "children": []
+          },
+          {
+            "label": "CAREER MANAGEMENT",
+            "url": "https://psvcet.ac.in/career-mangement/",
+            "children": []
+          },
+          {
+            "label": "OUR RECRUITERS",
+            "url": "https://psvcet.ac.in/our-recruiters/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "ACTIVITIES",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "NCC – National Cadet Corps",
+            "url": "https://psvcet.ac.in/national-cadet-corps/",
+            "children": []
+          },
+          {
+            "label": "NSS – NATIONAL SERVICE SCHEME",
+            "url": "https://psvcet.ac.in/nss-national-service-scheme/",
+            "children": []
+          },
+          {
+            "label": "YRC – YOUTH RED CROSS",
+            "url": "https://psvcet.ac.in/yrc-youth-red-cross/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "EXTERNAL LINK",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "STAFF & STUDENT LOGIN",
+            "url": "http://103.170.160.68/erp/Default.aspx",
+            "children": []
+          },
+          {
+            "label": "ANNA UNIVERSITY",
+            "url": "https://www.annauniv.edu/",
+            "children": []
+          },
+          {
+            "label": "COE",
+            "url": "https://psvcet.ac.in/coe/",
+            "children": []
+          },
+          {
+            "label": "NPTEL",
+            "url": "https://nptel.ac.in/",
+            "children": []
+          },
+          {
+            "label": "AICTE",
+            "url": "https://www.aicte-india.org/",
+            "children": []
+          },
+          {
+            "label": "AICTE FACEBOOK",
+            "url": "https://www.facebook.com/OfficialAICTE/",
+            "children": []
+          },
+          {
+            "label": "APPROVALS",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "ANNA UNIVERSITY APPROVAL",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/AFFILIATION-2023-24.pdf",
+                "children": []
+              },
+              {
+                "label": "NAAC APPROVAL",
+                "url": "https://psvcet.ac.in/",
+                "children": []
+              },
+              {
+                "label": "AICTE APPROVAL",
+                "url": "https://psvcet.ac.in/aicte/AICTE_EoA_2024-25.pd",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "PROSPECTUS",
+            "url": "https://psvcet.ac.in/PSVCET_Prospectus.pdf",
+            "children": []
+          },
+          {
+            "label": "PROFESSIONAL BODIES",
+            "url": "https://psvcet.ac.in/professional-bodies/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "GALLERY",
+        "url": "https://psvcet.ac.in/elementor-10746/",
+        "children": []
+      },
+      {
+        "label": "CONTACT US",
+        "url": "https://psvcet.ac.in/contact-us/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "menu-1-bcd1cdb",
+    "items": [
+      {
+        "label": "HOME",
+        "url": "https://psvcet.ac.in/",
+        "children": []
+      },
+      {
+        "label": "ABOUT US",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "ABOUT COLLEGE",
+            "url": "https://psvcet.ac.in/about-college/",
+            "children": []
+          },
+          {
+            "label": "VISION & MISSION",
+            "url": "https://psvcet.ac.in/vision-misson/",
+            "children": []
+          },
+          {
+            "label": "ADMINISTRATION",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "FROM CHAIRMAN DESK",
+                "url": "https://psvcet.ac.in/chairman/",
+                "children": []
+              },
+              {
+                "label": "FROM SECRETARY DESK",
+                "url": "https://psvcet.ac.in/secretary/",
+                "children": []
+              },
+              {
+                "label": "FROM PRINCIPAL DESK",
+                "url": "https://psvcet.ac.in/principal/",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "CODE OF CONDUCT",
+            "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/6.1.2-Delegation-of-Powers.pdf",
+            "children": []
+          },
+          {
+            "label": "ORGANIZATIONAL STRUCTURE",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "SERVICE RULES",
+            "url": "https://psvcet.ac.in/service-rules/",
+            "children": []
+          },
+          {
+            "label": "COMMITTEE",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "STATURED BODY",
+                "url": "https://psvcet.ac.in/statured-body/",
+                "children": []
+              },
+              {
+                "label": "NON STATURED BODY",
+                "url": "https://psvcet.ac.in/non-statured-body/",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "AUDIT STATEMENT",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "2020 – 2021",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/Audit-statement-2020-2021.pdf",
+                "children": []
+              },
+              {
+                "label": "2021 – 2022",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/Audit-statement-2021-2022.pdf",
+                "children": []
+              },
+              {
+                "label": "2022 – 2023",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/aUDIT-STATEMENT-2022_2023.pdf",
+                "children": []
+              },
+              {
+                "label": "2023 – 2024",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/AUDIT-STATEMENT-2023_2024.pdf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "ADMISSION",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "B.E. / B.TECH",
+            "url": "https://psvcet.ac.in/b-e-b-tech/",
+            "children": []
+          },
+          {
+            "label": "B.E. / B.TECH Lateral",
+            "url": "https://psvcet.ac.in/b-e-b-tech-lateral/",
+            "children": []
+          },
+          {
+            "label": "M.E. / M.TECH",
+            "url": "https://psvcet.ac.in/m-e-m-tech-degree-courses/",
+            "children": []
+          },
+          {
+            "label": "MBA",
+            "url": "https://psvcet.ac.in/mba-degree-course/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "ACADEMICS",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "COURSES OFFERED",
+            "url": "https://psvcet.ac.in/courses-offered/",
+            "children": []
+          },
+          {
+            "label": "DEPARTMENTS",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "UG PROGRAMS",
+                "url": "https://psvcet.ac.in/",
+                "children": [
+                  {
+                    "label": "B.E – Civil Engineering",
+                    "url": "https://psvcet.ac.in/b-e-civil-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – Computer Science and Engineering",
+                    "url": "https://psvcet.ac.in/b-e-computer-science-and-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-electronics-and-communication-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "BE – ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "url": "https://psvcet.ac.in/electrical-and-electronics-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.TECH – INFORMATION TECHNOLOGY",
+                    "url": "https://psvcet.ac.in/b-tech-information-technology/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – MECHANICAL ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-mechanical-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.TECH – ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+                    "url": "https://psvcet.ac.in/artificial-intelligence-and-data-science/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – BIOMEDICAL ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-biomedical-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – CSE – Cyber Security",
+                    "url": "https://psvcet.ac.in/b-e-cse-cyber-security/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "PG PROGRAMS",
+                "url": "https://psvcet.ac.in/",
+                "children": [
+                  {
+                    "label": "MASTER OF BUSINESS ADMINISTRATION (MBA)",
+                    "url": "https://psvcet.ac.in/master-of-business-administration-mba/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E – Computer Science and Engineering",
+                    "url": "https://psvcet.ac.in/m-e-computer-science-and-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E Structural Engineering",
+                    "url": "https://psvcet.ac.in/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E – EMBEDDED SYSTEM TECHNOLOGIES",
+                    "url": "https://psvcet.ac.in/m-e-embedded-systems-technologies/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "SCIENCE & HUMANITIES",
+                "url": "https://psvcet.ac.in/science-humanities/",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "INFRASTRUCTURE",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "HOSTEL",
+            "url": "https://psvcet.ac.in/hostel/",
+            "children": []
+          },
+          {
+            "label": "LIBRARY",
+            "url": "https://psvcet.ac.in/library/",
+            "children": []
+          },
+          {
+            "label": "CLASS ROOMS",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "CONFERENCE HALL",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "SPORTS",
+            "url": "https://psvcet.ac.in/sports/",
+            "children": []
+          },
+          {
+            "label": "CIVIL LAB",
+            "url": "https://psvcet.ac.in/b-e-civil-lab/",
+            "children": []
+          },
+          {
+            "label": "ECE LAB",
+            "url": "https://psvcet.ac.in/ece-lab/",
+            "children": []
+          },
+          {
+            "label": "COMPUTER LAB",
+            "url": "https://psvcet.ac.in/computer-lab/",
+            "children": []
+          },
+          {
+            "label": "MECHANICAL LAB",
+            "url": "https://psvcet.ac.in/mechanical-lab/",
+            "children": []
+          },
+          {
+            "label": "PHYSICS & CHEMISTRY LAB",
+            "url": "https://psvcet.ac.in/physics-chemistry-lab/",
+            "children": []
+          },
+          {
+            "label": "FACILITIES",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "TRANSPORTATION",
+                "url": "https://psvcet.ac.in/transportation/",
+                "children": []
+              },
+              {
+                "label": "AUDITORIUM",
+                "url": "https://psvcet.ac.in/auditorium/",
+                "children": []
+              },
+              {
+                "label": "CANTEEN",
+                "url": "https://psvcet.ac.in/canteen/",
+                "children": []
+              },
+              {
+                "label": "Medical Room",
+                "url": "https://psvcet.ac.in/medical-room/",
+                "children": []
+              },
+              {
+                "label": "Yoga centre",
+                "url": "https://psvcet.ac.in/yoga-centre/",
+                "children": []
+              },
+              {
+                "label": "Gymnasium",
+                "url": "https://psvcet.ac.in/gymnasium/",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mobile-menu-2-bcd1cdb",
+    "items": [
+      {
+        "label": "HOME",
+        "url": "https://psvcet.ac.in/",
+        "children": []
+      },
+      {
+        "label": "ABOUT US",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "ABOUT COLLEGE",
+            "url": "https://psvcet.ac.in/about-college/",
+            "children": []
+          },
+          {
+            "label": "VISION & MISSION",
+            "url": "https://psvcet.ac.in/vision-misson/",
+            "children": []
+          },
+          {
+            "label": "ADMINISTRATION",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "FROM CHAIRMAN DESK",
+                "url": "https://psvcet.ac.in/chairman/",
+                "children": []
+              },
+              {
+                "label": "FROM SECRETARY DESK",
+                "url": "https://psvcet.ac.in/secretary/",
+                "children": []
+              },
+              {
+                "label": "FROM PRINCIPAL DESK",
+                "url": "https://psvcet.ac.in/principal/",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "CODE OF CONDUCT",
+            "url": "https://psvcet.ac.in/wp-content/uploads/2024/02/6.1.2-Delegation-of-Powers.pdf",
+            "children": []
+          },
+          {
+            "label": "ORGANIZATIONAL STRUCTURE",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "SERVICE RULES",
+            "url": "https://psvcet.ac.in/service-rules/",
+            "children": []
+          },
+          {
+            "label": "COMMITTEE",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "STATURED BODY",
+                "url": "https://psvcet.ac.in/statured-body/",
+                "children": []
+              },
+              {
+                "label": "NON STATURED BODY",
+                "url": "https://psvcet.ac.in/non-statured-body/",
+                "children": []
+              }
+            ]
+          },
+          {
+            "label": "AUDIT STATEMENT",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "2020 – 2021",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/Audit-statement-2020-2021.pdf",
+                "children": []
+              },
+              {
+                "label": "2021 – 2022",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/Audit-statement-2021-2022.pdf",
+                "children": []
+              },
+              {
+                "label": "2022 – 2023",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/aUDIT-STATEMENT-2022_2023.pdf",
+                "children": []
+              },
+              {
+                "label": "2023 – 2024",
+                "url": "https://psvcet.ac.in/wp-content/uploads/2024/11/AUDIT-STATEMENT-2023_2024.pdf",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "ADMISSION",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "B.E. / B.TECH",
+            "url": "https://psvcet.ac.in/b-e-b-tech/",
+            "children": []
+          },
+          {
+            "label": "B.E. / B.TECH Lateral",
+            "url": "https://psvcet.ac.in/b-e-b-tech-lateral/",
+            "children": []
+          },
+          {
+            "label": "M.E. / M.TECH",
+            "url": "https://psvcet.ac.in/m-e-m-tech-degree-courses/",
+            "children": []
+          },
+          {
+            "label": "MBA",
+            "url": "https://psvcet.ac.in/mba-degree-course/",
+            "children": []
+          }
+        ]
+      },
+      {
+        "label": "ACADEMICS",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "COURSES OFFERED",
+            "url": "https://psvcet.ac.in/courses-offered/",
+            "children": []
+          },
+          {
+            "label": "DEPARTMENTS",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "UG PROGRAMS",
+                "url": "https://psvcet.ac.in/",
+                "children": [
+                  {
+                    "label": "B.E – Civil Engineering",
+                    "url": "https://psvcet.ac.in/b-e-civil-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – Computer Science and Engineering",
+                    "url": "https://psvcet.ac.in/b-e-computer-science-and-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – ELECTRONICS AND COMMUNICATION ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-electronics-and-communication-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "BE – ELECTRICAL AND ELECTRONICS ENGINEERING",
+                    "url": "https://psvcet.ac.in/electrical-and-electronics-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.TECH – INFORMATION TECHNOLOGY",
+                    "url": "https://psvcet.ac.in/b-tech-information-technology/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – MECHANICAL ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-mechanical-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.TECH – ARTIFICIAL INTELLIGENCE AND DATA SCIENCE",
+                    "url": "https://psvcet.ac.in/artificial-intelligence-and-data-science/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – BIOMEDICAL ENGINEERING",
+                    "url": "https://psvcet.ac.in/b-e-biomedical-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "B.E – CSE – Cyber Security",
+                    "url": "https://psvcet.ac.in/b-e-cse-cyber-security/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "PG PROGRAMS",
+                "url": "https://psvcet.ac.in/",
+                "children": [
+                  {
+                    "label": "MASTER OF BUSINESS ADMINISTRATION (MBA)",
+                    "url": "https://psvcet.ac.in/master-of-business-administration-mba/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E – Computer Science and Engineering",
+                    "url": "https://psvcet.ac.in/m-e-computer-science-and-engineering/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E Structural Engineering",
+                    "url": "https://psvcet.ac.in/",
+                    "children": []
+                  },
+                  {
+                    "label": "M.E – EMBEDDED SYSTEM TECHNOLOGIES",
+                    "url": "https://psvcet.ac.in/m-e-embedded-systems-technologies/",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "label": "SCIENCE & HUMANITIES",
+                "url": "https://psvcet.ac.in/science-humanities/",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "INFRASTRUCTURE",
+        "url": "https://psvcet.ac.in/",
+        "children": [
+          {
+            "label": "HOSTEL",
+            "url": "https://psvcet.ac.in/hostel/",
+            "children": []
+          },
+          {
+            "label": "LIBRARY",
+            "url": "https://psvcet.ac.in/library/",
+            "children": []
+          },
+          {
+            "label": "CLASS ROOMS",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "CONFERENCE HALL",
+            "url": "https://psvcet.ac.in/",
+            "children": []
+          },
+          {
+            "label": "SPORTS",
+            "url": "https://psvcet.ac.in/sports/",
+            "children": []
+          },
+          {
+            "label": "CIVIL LAB",
+            "url": "https://psvcet.ac.in/b-e-civil-lab/",
+            "children": []
+          },
+          {
+            "label": "ECE LAB",
+            "url": "https://psvcet.ac.in/ece-lab/",
+            "children": []
+          },
+          {
+            "label": "COMPUTER LAB",
+            "url": "https://psvcet.ac.in/computer-lab/",
+            "children": []
+          },
+          {
+            "label": "MECHANICAL LAB",
+            "url": "https://psvcet.ac.in/mechanical-lab/",
+            "children": []
+          },
+          {
+            "label": "PHYSICS & CHEMISTRY LAB",
+            "url": "https://psvcet.ac.in/physics-chemistry-lab/",
+            "children": []
+          },
+          {
+            "label": "FACILITIES",
+            "url": "https://psvcet.ac.in/",
+            "children": [
+              {
+                "label": "TRANSPORTATION",
+                "url": "https://psvcet.ac.in/transportation/",
+                "children": []
+              },
+              {
+                "label": "AUDITORIUM",
+                "url": "https://psvcet.ac.in/auditorium/",
+                "children": []
+              },
+              {
+                "label": "CANTEEN",
+                "url": "https://psvcet.ac.in/canteen/",
+                "children": []
+              },
+              {
+                "label": "Medical Room",
+                "url": "https://psvcet.ac.in/medical-room/",
+                "children": []
+              },
+              {
+                "label": "Yoga centre",
+                "url": "https://psvcet.ac.in/yoga-centre/",
+                "children": []
+              },
+              {
+                "label": "Gymnasium",
+                "url": "https://psvcet.ac.in/gymnasium/",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

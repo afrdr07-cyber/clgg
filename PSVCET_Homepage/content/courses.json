@@ -1,0 +1,67 @@
+[
+  {
+    "name": "B.E – Civil Engineering",
+    "duration_years": 4,
+    "intake": 30
+  },
+  {
+    "name": "B. E – Computer Science and Engineering",
+    "duration_years": 4,
+    "intake": 120
+  },
+  {
+    "name": "B.E - Computer Science & Engineering ( Cyber Security)",
+    "duration_years": 4,
+    "intake": 120
+  },
+  {
+    "name": "B. E – Electrical and Electronics Engineering",
+    "duration_years": 4,
+    "intake": 60
+  },
+  {
+    "name": "B. Tech – Information Technology",
+    "duration_years": 4,
+    "intake": 120
+  },
+  {
+    "name": "B.E – Mechanical Engineering",
+    "duration_years": 4,
+    "intake": 60
+  },
+  {
+    "name": "B. E – Electronics and Communication Engineering",
+    "duration_years": 4,
+    "intake": 60
+  },
+  {
+    "name": "B.Tech – Artificial Intelligence and Data Science",
+    "duration_years": 4,
+    "intake": 120
+  },
+  {
+    "name": "B.E – BioMedical Engineering",
+    "duration_years": 4,
+    "intake": 30
+  },
+  {
+    "name": "M.E – Structural Engineering",
+    "duration_years": 2,
+    "intake": 18
+  },
+  {
+    "name": "M.E – Computer Science and Engineering",
+    "duration_years": 2,
+    "intake": 18
+  },
+  {
+    "name": "M.E – Embedded Systems Technologies",
+    "duration_years": 2,
+    "intake": 18
+  },
+  {
+    "name": "MBA – Master of Business Administration",
+    "duration_years": 2,
+    "intake": 120
+  }
+]
