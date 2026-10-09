@@ -249,7 +249,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <img
               alt="PSVCET Official Seal"
               className="h-12 sm:h-16 lg:h-18 w-auto object-contain drop-shadow-sm group-hover:scale-105 transition-transform"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhjDBW2pPPPikF7DZ314evQvvn55YReq_NfhLd8VyX2T4QQyYZ1koSrmOZepL-may-EBYZmoq0Bwowz8rbLokuoSTjWwEqNhPD_JtoiBOeCoIhXELN0BNUWPMRU5IblVXQZhPLzEaRxxTERK_ReMm82KLzvWCxfivkZpzg566SXrP4MRiVxTfAc_d1VCWNuoHpP6Uok9gGLo7eTgpGnKQKvfOeLDx13xpIXBdE_wFkmlxLz0yD-WRbuQ"
+              src="/images/logo/logo_seal_round.png"
             />
             <img
               alt="AICTE & Anna University Affiliation"

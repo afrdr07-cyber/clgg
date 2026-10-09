@@ -365,13 +365,13 @@ export const InfrastructureView: React.FC<InfrastructureViewProps> = ({
 
             {/* Search Input */}
             <div className="relative w-full max-w-md">
-              <Search className="w-4 h-4 text-[#A0A5AD] absolute left-3 top-3.5" />
+              <Search className="w-4 h-4 text-[#A0A5AD] absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none" />
               <input
                 type="text"
                 placeholder="Search by route, stop, or destination..."
                 value={busSearch}
                 onChange={(e) => setBusSearch(e.target.value)}
-                className="w-full text-xs sm:text-sm pl-9 pr-3 py-2.5 rounded-xl border border-[#D9DCE1] bg-[#FAF9F6] focus:bg-white focus:outline-none focus:border-[#80672E]"
+                className="w-full text-xs sm:text-sm pl-10 pr-3 py-2.5 rounded-xl border border-[#D9DCE1] bg-[#FAF9F6] focus:bg-white focus:outline-none focus:border-[#80672E]"
               />
             </div>
 

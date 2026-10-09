@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { COLLEGE_DETAILS, STATUTORY_COMMITTEES } from '../../data/officialCollegeData';
+import { COLLEGE_DETAILS, STATUTORY_COMMITTEES, OFFICIAL_REGULATORY_DOCS } from '../../data/officialCollegeData';
 
 interface MandatoryDisclosureModalProps {
   onClose: () => void;
@@ -92,21 +92,45 @@ export const MandatoryDisclosureModal: React.FC<MandatoryDisclosureModalProps> =
             </div>
           </div>
 
-          {/* Download Official Disclosure File */}
-          <div className="p-4 rounded-2xl bg-surface-gold-pale/50 border border-accent-gold/40 flex flex-col sm:flex-row items-center justify-between gap-3">
-            <div className="flex items-center gap-3">
-              <span className="material-symbols-outlined text-primary text-[28px]">description</span>
-              <div>
-                <h4 className="font-label-lg font-bold text-text-primary text-sm">Download Official AICTE Mandatory Disclosure Document (PDF)</h4>
-                <p className="text-xs text-text-secondary font-body-sm">Complete 48-page compliance filing for academic year 2024–2025.</p>
+          {/* Download Official Regulatory Files */}
+          <div className="space-y-3">
+            <div className="p-4 rounded-2xl bg-surface-gold-pale/50 border border-accent-gold/40 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <span className="material-symbols-outlined text-primary text-[28px]">description</span>
+                <div>
+                  <h4 className="font-label-lg font-bold text-text-primary text-sm">Download Official AICTE Mandatory Disclosure (PDF)</h4>
+                  <p className="text-xs text-text-secondary font-body-sm">Complete compliance filing for academic year 2025–2026.</p>
+                </div>
               </div>
+              <a
+                href={OFFICIAL_REGULATORY_DOCS.mandatoryDisclosure.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-xl bg-primary text-white font-label-md text-xs font-semibold hover:bg-primary-container transition-colors shrink-0 shadow-sm inline-flex items-center gap-1.5"
+              >
+                <span>Download PDF</span>
+                <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+              </a>
             </div>
-            <button
-              onClick={() => alert("Downloading official AICTE Mandatory Disclosure 2024-25 PDF for PSVCET...")}
-              className="px-4 py-2 rounded-xl bg-primary text-white font-label-md text-xs font-semibold hover:bg-primary-container transition-colors shrink-0 shadow-sm cursor-pointer"
-            >
-              Download PDF
-            </button>
+
+            <div className="p-4 rounded-2xl bg-[#FAF9F6] border border-[#CCD2DC] flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center gap-3">
+                <span className="material-symbols-outlined text-primary text-[28px]">groups</span>
+                <div>
+                  <h4 className="font-label-lg font-bold text-text-primary text-sm">Download Certified Faculty Details & Roster (PDF)</h4>
+                  <p className="text-xs text-text-secondary font-body-sm">AICTE & Anna University approved teaching appointments & qualifications.</p>
+                </div>
+              </div>
+              <a
+                href={OFFICIAL_REGULATORY_DOCS.facultyDetails.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 rounded-xl bg-[#80672E] text-white font-label-md text-xs font-semibold hover:bg-[#664F18] transition-colors shrink-0 shadow-sm inline-flex items-center gap-1.5"
+              >
+                <span>View Faculty PDF</span>
+                <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+              </a>
+            </div>
           </div>
         </div>
 

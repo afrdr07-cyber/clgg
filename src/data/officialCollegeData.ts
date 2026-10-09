@@ -1056,11 +1056,59 @@ export const AUDIT_STATEMENTS: AuditStatement[] = [
   }
 ];
 
+export const INSTITUTIONAL_PILLARS = [
+  {
+    id: "vision" as const,
+    title: "Institutional Vision",
+    subtitle: "Centre of Global Excellence",
+    iconImage: "/images/pillars/opportunity.png",
+    badge: "Our Future Compass",
+    statement: "To emerge as a premier centre of excellence in engineering, technology, and management education that fosters innovative thinking, ethical responsibility, and professional leadership for global sustainable development.",
+    points: [
+      "Bridging rural talent with cutting-edge global industry demands",
+      "Fostering continuous research & innovative computational thinking",
+      "Nurturing socially responsible and ethical techno-leaders"
+    ]
+  },
+  {
+    id: "mission" as const,
+    title: "Institutional Mission",
+    subtitle: "Outcome-Based Academic Stewardship",
+    iconImage: "/images/pillars/bullseye-1.png",
+    badge: "Strategic Objectives",
+    statement: "Deliver transformative technical education through state-of-the-art infrastructure, dedicated faculty mentorship, and active industry-institute partnerships.",
+    points: [
+      "Deliver outcome-based higher education benchmarking national and global quality standards.",
+      "Provide state-of-the-art laboratory infrastructure, computational clusters, and research ecosystems.",
+      "Cultivate strong industry-academia synergies for experiential learning, internships, and 100% placement outcomes.",
+      "Nurture ethical, societal, and environmental consciousness through holistic student development."
+    ]
+  },
+  {
+    id: "quality-policy" as const,
+    title: "Quality Policy",
+    subtitle: "ISO 9001:2015 Certified Commitment",
+    iconImage: "/images/pillars/diamond-1-1.png",
+    badge: "Accreditation Benchmark",
+    statement: "P.S.V College of Engineering and Technology is committed to provide quality education to the students enabling them to excel in the fields of Science, Engineering, Technology and Management to cater to the changing and challenging needs of society and industry.",
+    points: [
+      "Continuous enhancement of academic, pedagogical, and evaluation standards.",
+      "Full compliance with statutory bodies: UGC, AICTE, Anna University, NAAC 'A' & NBA.",
+      "Active stakeholder engagement including students, parents, alumni, and recruiters."
+    ]
+  }
+];
+
 export const OFFICIAL_REGULATORY_DOCS = {
   mandatoryDisclosure: {
     title: "AICTE Mandatory Disclosure 2025-2026",
     url: "https://psvcet.ac.in/psv-doc/mandatory_disclosure_2025-26.pdf",
     authority: "All India Council for Technical Education, New Delhi"
+  },
+  facultyDetails: {
+    title: "Official PSVCET Faculty Directory & Teaching Appointments",
+    url: "https://psvcet.ac.in/psv-doc/PSVCET_Faculty_Details.pdf",
+    authority: "AICTE & Anna University Approved Faculty Roll"
   },
   codeOfConduct: {
     title: "Code of Conduct & Delegation of Powers",
@@ -1082,39 +1130,70 @@ export const OFFICIAL_REGULATORY_DOCS = {
 export const LEADERSHIP_PROFILES = {
   chairman: {
     name: "Dr. P. Selvam",
-    qualifications: "M.A., B.Ed., Ph.D.",
+    qualifications: "M.A., B.Ed., M.Phil., Ph.D.",
     role: "Founder Chairman",
     trust: "St. Joan's Educational Trust",
-    message: "Education is not mere accumulation of facts, but the training of the mind to think critically and lead with moral integrity. When we established P.S.V College of Engineering and Technology, our vision was to democratize premier technical education for students across rural and suburban Tamil Nadu. Today, conferred with autonomous status and accredited 'A' by NAAC, we stand as a beacon of academic rigor and technological innovation.",
+    image: "/images/leadership/chairman.jpg",
+    quote: "If you are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people.",
+    quoteAuthor: "Popular Proverb",
+    headline: "Democratizing Premier Technical Education with Global Standards",
+    paragraphs: [
+      "In the present socio-economic scenario of globalization, higher and technical education has come to occupy the center stage. Scientific community has been significantly converted into a round-the-world community sharing concepts, exchanging ideas and collaborating on projects with an International yardstick. Web based learning system, fast growing use of Internet, and importance of video conferencing in learning and research are considered these days as common practice in the myriad developing fields around the World.",
+      "Leading Professional Institutions of our proudly emerging India are on the steady move towards the Global benchmark having bolstered research drive and avidly providing state-of-the-art facilities. What is required is to quickly arrive at the frontiers of knowledge by closing gaps in technological skills with increasing mastery over Information and Communication Technology in diversified fields.",
+      "At P.S.V. College of Engineering & Technology, we are committed to bringing in well acclaimed, illustrious, student-friendly, and accessible faculty with integrity and dedication. We have created enviable infrastructure in the form of the latest Learning Resource Centre, Ultra-modern Computer Centre, and laudable laboratories. P.S.V. College of Engineering & Technology creates technologists enlightened with value-based conduct, honesty, integrity and love for the profession.",
+      "When students graduate from PSVCET, they become decently trained engineers and technicians having innovative approach, love for experiments and skill in achieving their goals. PSVCET-ians are recognized as Technical Leaders and Innovators. The watchwords of the College stand for 'Prosperity, Solidarity, Victory'."
+    ],
+    message: "In the present socio-economic scenario of globalization, higher and technical education has come to occupy the center stage. At P.S.V. College of Engineering & Technology, we have created enviable infrastructure in the form of latest Learning Resource Centre, Ultra-modern Computer centre and Laudable laboratories. We create technologists enlightened with value-based conduct, honesty, integrity and love for the profession. The watch words of the College stand for 'Prosperity, Solidarity, Victory'.",
     focusAreas: [
-      "Democratizing access to high-tier technical education",
-      "Philanthropic student scholarship endowments",
-      "Value-grounded holistic personality development",
-      "Continuous state-of-the-art infrastructure expansion"
+      "Democratizing access to high-tier technical education for rural & suburban talent",
+      "Philanthropic student scholarships & comprehensive learning resource centres",
+      "Industry 4.0 ultra-modern computer labs and active R&D collaborations",
+      "Value-grounded holistic conduct: 'Prosperity, Solidarity, Victory'"
     ]
   },
   secretary: {
     name: "Dr. S. Vivek",
-    qualifications: "M.E., Ph.D.",
+    qualifications: "M.A., EDMSL (UK)., MBA (UK)., Ph.D.",
     role: "Secretary",
-    message: "In an epoch characterized by exponential shifts in artificial intelligence, robotics, and sustainable engineering, our mission is to ensure our graduates are not just job seekers, but transformative innovators. Our autonomous curriculum gives us the unique agility to embed Industry 4.0 competencies, cloud computing, and real-world project internships directly into academic credits.",
+    image: "/images/leadership/secretary.jpg",
+    quote: "I am not approaching education as a business motive. According to me education means 'service'.",
+    quoteAuthor: "Dr. S. Vivek",
+    headline: "Education as Pure Service to Empower Rural and Suburban Youth",
+    paragraphs: [
+      "I am not approaching education as a business motive. According to me, education means 'service'. I am taking this opportunity to explore my regards for the service of the people in the form of education.",
+      "Our P.S.V. College of Engineering & Technology has been surrounded by a rural belt where we proudly carry the motto of pouring the light of literacy and technological mastery to rural background students. If a person is well educated, it stimulates them to think technically with a positive approach, fulfilling the timeless truth that 'Education makes the man perfect.'",
+      "According to today's status, this world is dominated by technology. This world has been built by creative Engineers. The fate of the future world is in the hands of today's Engineers. From the launching of rockets to manufacturing essential materials, everything originates from the mystical minds of Engineers.",
+      "Our P.S.V. College of Engineering & Technology carries the womb of tomorrow's Engineers who are going to play a vital part in building an extraordinary, sustainable world."
+    ],
+    message: "I am not approaching education as a business motive. According to me education means 'service'. Our P.S.V. College of Engineering & Technology carries the motto of pouring the knowledge of literacy to rural background students. The fate of the future world is in the hands of today's Engineers. PSVCET carries the womb of tomorrow's Engineers who will play a vital part in building an extraordinary world.",
     focusAreas: [
-      "Industry-aligned autonomous curriculum modernization",
-      "Incubation of student startups via AICTE IdeaLab",
-      "Strategic MoUs with tier-1 MNCs and global universities",
-      "Fostering research publications and patent filings"
+      "Education as selfless service and student empowerment",
+      "Nurturing innovative problem-solvers with positive technical thinking",
+      "Incubation of student startups and hands-on engineering competencies",
+      "Bridging the rural-urban technology divide with world-class facilities"
     ]
   },
   principal: {
     name: "Dr. P. Lawrence",
     qualifications: "M.E., Ph.D.",
     role: "Principal",
-    message: "Welcome to PSVCET, an autonomous institution where academic rigor converges with compassionate mentorship. Our faculty members are dedicated scholars committed to outcome-based education. With accredited undergraduate and postgraduate programs, cutting-edge laboratories, and a proactive placement ecosystem, we sculpt engineers equipped to excel in the global technological arena.",
+    image: "/images/leadership/principal.jpg",
+    quote: "We provide opportunities to the young generation for evolving their core competencies and building their career as world-class professionals with a broad-based foundation.",
+    quoteAuthor: "Dr. P. Lawrence",
+    headline: "20+ Years of Academic Leadership, Research & Outcome-Based Education",
+    bio: "Dr. P. Lawrence, M.E., Ph.D., completed his B.E. in Mechanical Engineering from PSNA College of Engineering & Technology, Dindigul, and M.E. in Thermal Engineering from Sri Venkateswara College of Engineering (SVCE), Sriperumbudur. He earned his Ph.D. in Mechanical Engineering from Anna University, Chennai, with over 20 years of distinguished teaching, research, and administrative experience. He has published 20+ technical papers, mobilized research grants, and serves as an active member of IEI, IIW, ISTE, SAE (USA), and ASME. He is a recognized research supervisor for Anna University and editorial board member of the Journal of Advanced Engineering Research, steering PSVCET as Principal since June 2015.",
+    paragraphs: [
+      "Dr. P. Lawrence is an ardent and dynamic leader who completed his B.E in Mechanical Engineering from PSNA College of Engineering & Technology, M.E in Thermal Engineering from SVCE, and Ph.D in Mechanical Engineering from Anna University, Chennai. He brings over 20 years of rich teaching, research, and administrative experience.",
+      "During his tenure, he mobilized research grants from various apex agencies to equip departments with state-of-the-art facilities for research and consultancy in alternate fuels and IC engines. He is an active member of premier professional bodies including Institution of Engineers (India), Indian Institute of Welding, Indian Society for Technical Education, Society of Automotive Engineers (USA), and ASME.",
+      "Mahatma Gandhi wisely observed: 'The real difficulty is that people have no idea of what education truly is... We must provide education that enriches character and society.' With this philosophy, PSVCET provides opportunities for the young generation to evolve core competencies and build careers as world-class professionals.",
+      "Since its inception in 2008, PSVCET has consistently demonstrated merit and quality, achieving a respectable position among top-notch institutions. Our eclectic blend of eminently qualified faculty imparts structured learning, transforming students into high-quality Engineers and Managers who enrich society with ethics, human values, and dedicated service to the nation."
+    ],
+    message: "We provide opportunities to the young generation for evolving their core competencies and building up their career as world class professionals with broad based foundation and in-depth knowledge to meet the challenges of Global competition. Since inception, PSVCET has achieved a respectable position with an eclectic blend of faculty, outcome-based education, and high ethical standards.",
     focusAreas: [
-      "Outcome-Based Education (OBE) and continuous benchmarking",
-      "Holistic academic governance and student welfare",
-      "100% placement training and skill enhancement from 1st year",
-      "NBA & NAAC institutional quality benchmarks"
+      "Outcome-Based Education (OBE) and Anna University Autonomous Governance",
+      "20+ Years of Thermal Engineering, Alternate Fuels & Automotive Research",
+      "Active Member of IEI, ISTE, SAE (USA), ASME & Editorial Board Member",
+      "100% Placement Skill Grooming & Holistic Nation-Building Ethos"
     ]
   }
 };

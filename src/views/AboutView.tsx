@@ -5,13 +5,14 @@ import {
   LEADERSHIP_PROFILES, 
   STATUTORY_COMMITTEES, 
   AUDIT_STATEMENTS, 
-  OFFICIAL_REGULATORY_DOCS 
+  OFFICIAL_REGULATORY_DOCS,
+  INSTITUTIONAL_PILLARS
 } from '../data/officialCollegeData';
 import { AboutSubTab, PageView } from '../types/navigation';
 import { 
   Building2, Award, Users, ShieldCheck, FileText, Download, 
   ExternalLink, ChevronRight, CheckCircle2, ArrowRight, BookOpen,
-  Sparkles, Check, Phone, Mail
+  Sparkles, Check, Phone, Mail, Quote, GraduationCap, UserCheck, Briefcase
 } from 'lucide-react';
 
 interface AboutViewProps {
@@ -26,6 +27,7 @@ export const AboutView: React.FC<AboutViewProps> = ({
   onOpenEnquiry,
 }) => {
   const [activeTab, setActiveTab] = useState<AboutSubTab>(initialSubTab);
+  const [adminDeskTab, setAdminDeskTab] = useState<'all' | 'chairman' | 'secretary' | 'principal'>('all');
 
   const subTabs = [
     { id: 'about-college' as AboutSubTab, label: 'About College' },
@@ -135,60 +137,87 @@ export const AboutView: React.FC<AboutViewProps> = ({
         </section>
       )}
 
-      {/* 2. VISION & MISSION */}
+      {/* 2. VISION, MISSION & QUALITY POLICY */}
       {activeTab === 'vision-mission' && (
         <section className="space-y-8 animate-in fade-in duration-300">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            
-            <div className="bg-white border border-[#D9DCE1] rounded-3xl p-6 sm:p-10 shadow-sm space-y-4">
-              <div className="w-12 h-12 rounded-2xl bg-[#80672E] text-white flex items-center justify-center font-bold">
-                <Sparkles className="w-6 h-6" />
+          
+          {/* Section Header */}
+          <div className="bg-gradient-to-r from-[#FAF9F6] via-white to-[#FAF9F6] border border-[#D9DCE1] rounded-3xl p-6 sm:p-8 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#80672E]/10 border border-[#80672E]/20 text-[#80672E] text-xs font-bold uppercase tracking-wider mb-2">
+                <Sparkles className="w-3.5 h-3.5" />
+                <span>Foundational Charter</span>
               </div>
-              <span className="text-xs uppercase font-bold text-[#80672E] tracking-wider block">Our Vision</span>
               <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#22262B]">
-                Institutional Vision
+                Vision, Mission & Quality Policy
               </h2>
-              <blockquote className="italic font-serif text-base text-[#22262B] bg-[#FAF9F6] border-l-4 border-[#80672E] p-4 rounded-r-xl leading-relaxed">
-                "To emerge as a premier centre of excellence in engineering, technology, and management education that fosters innovative thinking, ethical responsibility, and professional leadership for global sustainable development."
-              </blockquote>
-              <p className="text-xs sm:text-sm text-[#60656C] leading-relaxed pt-2">
-                We are dedicated to bridging rural and urban educational frontiers, instilling entrepreneurial spirit, and cultivating ethical scientists and engineers.
+              <p className="text-xs sm:text-sm text-[#60656C] mt-1 max-w-2xl">
+                The institutional pillars formulated by St. Joan's Educational Trust to foster technical competence, innovation, and ethical human values.
               </p>
             </div>
 
-            <div className="bg-white border border-[#D9DCE1] rounded-3xl p-6 sm:p-10 shadow-sm space-y-4">
-              <div className="w-12 h-12 rounded-2xl bg-[#F0E8D5] text-[#80672E] flex items-center justify-center font-bold">
-                <Award className="w-6 h-6" />
-              </div>
-              <span className="text-xs uppercase font-bold text-[#80672E] tracking-wider block">Our Mission</span>
-              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#22262B]">
-                Institutional Mission
-              </h2>
-              <ul className="space-y-3 text-xs sm:text-sm text-[#60656C]">
-                {[
-                  'Deliver outcome-based higher education benchmarking national and global quality standards.',
-                  'Provide state-of-the-art laboratory infrastructure, computational clusters, and research ecosystems.',
-                  'Cultivate strong industry-academia synergies for experiential learning, internships, and 100% placement outcomes.',
-                  'Nurture ethical, societal, and environmental consciousness through holistic student development.'
-                ].map((item, idx) => (
-                  <li key={idx} className="flex items-start gap-2.5">
-                    <CheckCircle2 className="w-4 h-4 text-[#80672E] shrink-0 mt-0.5" />
-                    <span className="leading-relaxed">{item}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="flex items-center gap-2 px-3.5 py-2 bg-[#FAF9F6] border border-[#D9DCE1] rounded-2xl text-xs font-bold text-[#80672E] shrink-0">
+              <span>Motto: Prosperity • Solidarity • Victory</span>
             </div>
-
           </div>
 
-          <div className="bg-[#FAF9F6] border border-[#D9DCE1] rounded-3xl p-6 sm:p-8">
-            <h3 className="font-serif text-xl font-bold text-[#22262B] mb-2">
-              Quality Policy
-            </h3>
-            <p className="text-xs sm:text-sm text-[#60656C] leading-relaxed">
-              P.S.V. College of Engineering and Technology is committed to continuous enhancement of quality in technical education, research, and institutional governance through active stakeholder involvement, transparent systems, and strict compliance with statutory regulatory bodies (UGC, AICTE, Anna University, NAAC, and NBA).
-            </p>
+          {/* 3 Pillars Master Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {INSTITUTIONAL_PILLARS.map((pillar) => (
+              <div
+                key={pillar.id}
+                className="bg-white border-2 border-[#D9DCE1] hover:border-[#80672E] rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-xs hover:shadow-lg transition-all duration-300 group"
+              >
+                <div>
+                  <div className="flex items-center justify-between gap-3 mb-5">
+                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FAF9F6] to-[#F0E8D5] border border-[#80672E]/30 p-3 flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform">
+                      <img 
+                        src={pillar.iconImage} 
+                        alt={pillar.title} 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                    <span className="px-3 py-1 rounded-full bg-[#FAF9F6] border border-[#D9DCE1] text-[#80672E] text-[10px] font-bold uppercase tracking-wider">
+                      {pillar.badge}
+                    </span>
+                  </div>
+
+                  <h3 className="font-serif text-xl sm:text-2xl font-bold text-[#22262B] group-hover:text-[#80672E] transition-colors mb-1">
+                    {pillar.title}
+                  </h3>
+                  <span className="text-xs font-bold text-[#80672E] block mb-4">
+                    {pillar.subtitle}
+                  </span>
+
+                  <blockquote className="italic font-serif text-xs sm:text-sm text-[#22262B] bg-[#FAF9F6] border-l-4 border-[#80672E] p-4 rounded-r-xl leading-relaxed mb-5">
+                    "{pillar.statement}"
+                  </blockquote>
+
+                  {pillar.points && (
+                    <div className="space-y-2.5">
+                      <span className="text-[11px] font-bold text-[#22262B] uppercase tracking-wider block">
+                        Core Focus Areas:
+                      </span>
+                      <ul className="space-y-2 text-xs text-[#60656C]">
+                        {pillar.points.map((pt, pIdx) => (
+                          <li key={pIdx} className="flex items-start gap-2.5">
+                            <Check className="w-4 h-4 text-[#80672E] shrink-0 mt-0.5" />
+                            <span className="leading-relaxed">{pt}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+
+                <div className="mt-6 pt-4 border-t border-[#D9DCE1] flex items-center justify-between text-xs text-[#60656C]">
+                  <span className="font-medium">PSVCET Autonomous Campus</span>
+                  <span className="font-bold text-[#80672E]">Estd. 2008</span>
+                </div>
+              </div>
+            ))}
           </div>
+
         </section>
       )}
 
@@ -196,117 +225,351 @@ export const AboutView: React.FC<AboutViewProps> = ({
       {activeTab === 'administration' && (
         <section className="space-y-8 animate-in fade-in duration-300">
           
-          {/* Chairman Desk */}
-          <div className="bg-white border border-[#D9DCE1] rounded-3xl p-6 sm:p-10 shadow-sm">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-              <div className="lg:col-span-4 flex flex-col items-center text-center p-4 bg-[#FAF9F6] rounded-2xl border border-[#D9DCE1]">
-                <div className="w-24 h-24 rounded-full bg-[#80672E] text-white flex items-center justify-center font-serif text-3xl font-bold mb-3 shadow-md">
-                  PS
-                </div>
-                <span className="text-xs uppercase font-bold text-[#80672E]">Founder Chairman</span>
-                <h3 className="font-serif text-xl font-bold text-[#22262B] mt-1">
-                  {LEADERSHIP_PROFILES.chairman.name}
-                </h3>
-                <span className="text-xs text-[#60656C]">{LEADERSHIP_PROFILES.chairman.qualifications}</span>
-                <span className="text-[11px] text-[#A0A5AD] mt-1">{LEADERSHIP_PROFILES.chairman.trust}</span>
+          {/* Section Masthead */}
+          <div className="bg-gradient-to-r from-[#FAF9F6] via-white to-[#FAF9F6] border border-[#D9DCE1] rounded-3xl p-6 sm:p-8 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#80672E]/10 border border-[#80672E]/20 text-[#80672E] text-xs font-bold uppercase tracking-wider mb-2">
+                <Users className="w-3.5 h-3.5" />
+                <span>Governing Council & Directorate</span>
               </div>
+              <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#22262B]">
+                Executive Leadership & Administration
+              </h2>
+              <p className="text-xs sm:text-sm text-[#60656C] mt-1">
+                Guiding institutional vision, autonomous academic stewardship, and rural empowerment across 22 years of educational excellence.
+              </p>
+            </div>
 
-              <div className="lg:col-span-8 space-y-4">
-                <span className="text-xs uppercase font-bold text-[#80672E] tracking-wider block">Message from the Chairman</span>
-                <h4 className="font-serif text-xl sm:text-2xl font-bold text-[#22262B]">
-                  "Empowering Rural & Suburban Talent to Compete Globally"
-                </h4>
-                <p className="text-xs sm:text-sm text-[#60656C] leading-relaxed">
-                  {LEADERSHIP_PROFILES.chairman.message}
-                </p>
-                <div className="pt-2">
-                  <span className="block text-xs font-bold text-[#22262B] mb-1.5">Key Pillars:</span>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#60656C]">
-                    {LEADERSHIP_PROFILES.chairman.focusAreas.map((f, i) => (
-                      <div key={i} className="flex items-center gap-1.5">
-                        <Check className="w-3.5 h-3.5 text-[#80672E] shrink-0" />
-                        <span>{f}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
+            {/* Quick Desk Pill Selector */}
+            <div className="flex items-center gap-2 p-1.5 bg-[#FAF9F6] border border-[#D9DCE1] rounded-2xl shrink-0 self-start md:self-auto">
+              {[
+                { id: 'chairman', label: 'Chairman Desk' },
+                { id: 'secretary', label: 'Secretary Desk' },
+                { id: 'principal', label: 'Principal Desk' }
+              ].map((desk) => (
+                <button
+                  key={desk.id}
+                  onClick={() => setAdminDeskTab(desk.id as any)}
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    (adminDeskTab === desk.id || (adminDeskTab === 'all' && desk.id === 'chairman'))
+                      ? 'bg-[#80672E] text-white shadow-sm'
+                      : 'text-[#60656C] hover:text-[#22262B]'
+                  }`}
+                >
+                  {desk.label}
+                </button>
+              ))}
             </div>
           </div>
 
-          {/* Secretary Desk */}
-          <div className="bg-white border border-[#D9DCE1] rounded-3xl p-6 sm:p-10 shadow-sm">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-              <div className="lg:col-span-4 flex flex-col items-center text-center p-4 bg-[#FAF9F6] rounded-2xl border border-[#D9DCE1]">
-                <div className="w-24 h-24 rounded-full bg-[#664F18] text-white flex items-center justify-center font-serif text-3xl font-bold mb-3 shadow-md">
-                  SV
-                </div>
-                <span className="text-xs uppercase font-bold text-[#80672E]">Secretary</span>
-                <h3 className="font-serif text-xl font-bold text-[#22262B] mt-1">
-                  {LEADERSHIP_PROFILES.secretary.name}
-                </h3>
-                <span className="text-xs text-[#60656C]">{LEADERSHIP_PROFILES.secretary.qualifications}</span>
-              </div>
+          {/* Equal-Height 3-Leader Executive Master Card Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                id: 'chairman' as const,
+                profile: LEADERSHIP_PROFILES.chairman,
+                role: 'Founder Chairman',
+                roleColor: 'bg-[#80672E] text-white',
+                subtitle: "St. Joan's Educational Trust",
+                watchword: 'Prosperity • Solidarity • Victory',
+                tag: 'Founded PSVCET in 2008'
+              },
+              {
+                id: 'secretary' as const,
+                profile: LEADERSHIP_PROFILES.secretary,
+                role: 'Secretary',
+                roleColor: 'bg-[#664F18] text-white',
+                subtitle: 'Administrative Directorate',
+                watchword: 'Education Means Service',
+                tag: 'EDMSL (UK) • MBA (UK)'
+              },
+              {
+                id: 'principal' as const,
+                profile: LEADERSHIP_PROFILES.principal,
+                role: 'Principal',
+                roleColor: 'bg-[#22262B] text-white',
+                subtitle: 'Academic Governance',
+                watchword: 'Excellence in Engineering',
+                tag: 'Serving as Principal since 2015'
+              }
+            ].map((leader) => {
+              const isSelected = (adminDeskTab === leader.id) || (adminDeskTab === 'all' && leader.id === 'chairman');
+              return (
+                <div
+                  key={leader.id}
+                  onClick={() => setAdminDeskTab(leader.id)}
+                  className={`group relative bg-white border-2 rounded-3xl p-6 flex flex-col justify-between transition-all duration-300 cursor-pointer ${
+                    isSelected
+                      ? 'border-[#80672E] shadow-xl ring-4 ring-[#80672E]/10 bg-gradient-to-b from-[#FAF9F6] to-white'
+                      : 'border-[#D9DCE1] shadow-xs hover:border-[#80672E]/50 hover:shadow-md'
+                  }`}
+                >
+                  {/* Top Header Row */}
+                  <div className="flex items-center justify-between gap-2 mb-4">
+                    <span className={`px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider ${leader.roleColor}`}>
+                      {leader.role}
+                    </span>
+                    {isSelected ? (
+                      <span className="inline-flex items-center gap-1 text-[11px] font-bold text-[#80672E] bg-[#80672E]/10 px-2.5 py-0.5 rounded-full">
+                        <Check className="w-3 h-3" />
+                        <span>Active Desk</span>
+                      </span>
+                    ) : (
+                      <span className="text-[11px] text-[#A0A5AD] group-hover:text-[#80672E] transition-colors font-medium">
+                        Click to Read
+                      </span>
+                    )}
+                  </div>
 
-              <div className="lg:col-span-8 space-y-4">
-                <span className="text-xs uppercase font-bold text-[#80672E] tracking-wider block">Message from the Secretary</span>
-                <h4 className="font-serif text-xl sm:text-2xl font-bold text-[#22262B]">
-                  "Accelerating Innovation in Autonomous Education"
-                </h4>
-                <p className="text-xs sm:text-sm text-[#60656C] leading-relaxed">
-                  {LEADERSHIP_PROFILES.secretary.message}
-                </p>
-                <div className="pt-2">
-                  <span className="block text-xs font-bold text-[#22262B] mb-1.5">Focus Priorities:</span>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#60656C]">
-                    {LEADERSHIP_PROFILES.secretary.focusAreas.map((f, i) => (
-                      <div key={i} className="flex items-center gap-1.5">
-                        <Check className="w-3.5 h-3.5 text-[#80672E] shrink-0" />
-                        <span>{f}</span>
+                  {/* Profile Portrait & Dignitary Meta */}
+                  <div className="flex flex-col items-center text-center space-y-3">
+                    <div className="relative">
+                      <div className={`w-28 h-28 sm:w-32 sm:h-32 rounded-2xl overflow-hidden shadow-md border-2 transition-transform duration-500 group-hover:scale-105 bg-[#FAF9F6] ${
+                        isSelected ? 'border-[#80672E] ring-2 ring-[#80672E]/30' : 'border-[#D9DCE1]'
+                      }`}>
+                        <img
+                          src={leader.profile.image}
+                          alt={leader.profile.name}
+                          className="w-full h-full object-cover object-top"
+                          onError={(e) => {
+                            (e.target as HTMLElement).style.display = 'none';
+                          }}
+                        />
                       </div>
-                    ))}
+                    </div>
+
+                    <div>
+                      <h3 className="font-serif text-lg sm:text-xl font-bold text-[#22262B] group-hover:text-[#80672E] transition-colors leading-tight">
+                        {leader.profile.name}
+                      </h3>
+                      <p className="text-xs font-semibold text-[#80672E] mt-0.5">
+                        {leader.profile.qualifications}
+                      </p>
+                      <p className="text-[11px] text-[#60656C] mt-0.5">
+                        {leader.subtitle}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Quote / Motto snippet */}
+                  <div className="mt-4 pt-3 border-t border-[#D9DCE1]/70 text-center space-y-2">
+                    <p className="text-[11px] text-[#60656C] italic line-clamp-2 px-1">
+                      "{leader.profile.quote}"
+                    </p>
+                    <div className="inline-block px-2.5 py-1 rounded-lg bg-[#FAF9F6] border border-[#D9DCE1] text-[10px] font-bold text-[#80672E] tracking-wide">
+                      {leader.watchword}
+                    </div>
+                  </div>
+
+                  {/* Action Button */}
+                  <div className="mt-4 pt-3 border-t border-[#D9DCE1]/50 flex items-center justify-center">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setAdminDeskTab(leader.id);
+                      }}
+                      className={`w-full py-2 px-3 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                        isSelected
+                          ? 'bg-[#80672E] text-white shadow-xs'
+                          : 'bg-[#FAF9F6] text-[#22262B] hover:bg-[#80672E] hover:text-white border border-[#D9DCE1]'
+                      }`}
+                    >
+                      <span>{isSelected ? 'Viewing Full Desk' : 'Open Executive Desk'}</span>
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </button>
                   </div>
                 </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
 
-          {/* Principal Desk */}
-          <div className="bg-white border border-[#D9DCE1] rounded-3xl p-6 sm:p-10 shadow-sm">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
-              <div className="lg:col-span-4 flex flex-col items-center text-center p-4 bg-[#FAF9F6] rounded-2xl border border-[#D9DCE1]">
-                <div className="w-24 h-24 rounded-full bg-[#80672E] text-white flex items-center justify-center font-serif text-3xl font-bold mb-3 shadow-md">
-                  PL
-                </div>
-                <span className="text-xs uppercase font-bold text-[#80672E]">Principal</span>
-                <h3 className="font-serif text-xl font-bold text-[#22262B] mt-1">
-                  {LEADERSHIP_PROFILES.principal.name}
-                </h3>
-                <span className="text-xs text-[#60656C]">{LEADERSHIP_PROFILES.principal.qualifications}</span>
-              </div>
+          {/* Unified Masterpiece Active Executive Desk Panel */}
+          {(() => {
+            const currentLeaderKey = (adminDeskTab === 'secretary' || adminDeskTab === 'principal') ? adminDeskTab : 'chairman';
+            const leader = {
+              chairman: {
+                profile: LEADERSHIP_PROFILES.chairman,
+                role: 'Founder Chairman',
+                badgeText: "From the Founder Chairman's Desk",
+                headerTag: 'Watchwords: Prosperity • Solidarity • Victory',
+                trustPill: "St. Joan's Educational Trust (Est. 2008)",
+                email: 'selvam.psv@gmail.com',
+                phone: '+91 94442 73966',
+                extraCredentials: [
+                  { label: 'Trust', val: "St. Joan's Educational Trust" },
+                  { label: 'Role', val: 'Founder & Managing Trustee' },
+                  { label: 'Milestone', val: '22 Years of Institutional Leadership' }
+                ]
+              },
+              secretary: {
+                profile: LEADERSHIP_PROFILES.secretary,
+                role: 'Secretary',
+                badgeText: "From the Secretary's Desk",
+                headerTag: 'Motto: Education Means Service',
+                trustPill: 'Administrative Directorate & Global Management',
+                email: 'secretary@psvcet.ac.in',
+                phone: '+91 63693 42733',
+                extraCredentials: [
+                  { label: 'Degrees', val: 'EDMSL (UK) • MBA (UK) • Ph.D' },
+                  { label: 'Role', val: 'Executive Secretary & Director' },
+                  { label: 'Focus', val: 'Modern Campus Tech & Youth Innovation' }
+                ]
+              },
+              principal: {
+                profile: LEADERSHIP_PROFILES.principal,
+                role: 'Principal',
+                badgeText: "From the Principal's Desk",
+                headerTag: 'Serving as Principal since June 2015',
+                trustPill: 'Academic & Autonomous Research Stewardship',
+                email: 'principal@psvcet.ac.in',
+                phone: '+91 88384 28106',
+                extraCredentials: [
+                  { label: 'Degrees', val: 'B.E. (Mech), M.E. (Thermal), Ph.D' },
+                  { label: 'Experience', val: '20+ Years in Teaching & Autonomous R&D' },
+                  { label: 'Institutions', val: 'PSNA CET • SVCE • Anna University' }
+                ]
+              }
+            }[currentLeaderKey];
 
-              <div className="lg:col-span-8 space-y-4">
-                <span className="text-xs uppercase font-bold text-[#80672E] tracking-wider block">Message from the Principal</span>
-                <h4 className="font-serif text-xl sm:text-2xl font-bold text-[#22262B]">
-                  "Nurturing Engineers with Purpose and Competence"
-                </h4>
-                <p className="text-xs sm:text-sm text-[#60656C] leading-relaxed">
-                  {LEADERSHIP_PROFILES.principal.message}
-                </p>
-                <div className="pt-2">
-                  <span className="block text-xs font-bold text-[#22262B] mb-1.5">Strategic Highlights:</span>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-[#60656C]">
-                    {LEADERSHIP_PROFILES.principal.focusAreas.map((f, i) => (
-                      <div key={i} className="flex items-center gap-1.5">
-                        <Check className="w-3.5 h-3.5 text-[#80672E] shrink-0" />
-                        <span>{f}</span>
+            return (
+              <motion.div
+                key={currentLeaderKey}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                className="bg-white border-2 border-[#80672E]/30 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-xl relative overflow-hidden"
+              >
+                {/* Decorative Top Accent */}
+                <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#80672E] via-[#B49A59] to-[#80672E]" />
+
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+                  
+                  {/* Left Column: Formal Leadership Portrait & Dossier */}
+                  <div className="lg:col-span-4 flex flex-col items-center text-center p-6 sm:p-8 bg-gradient-to-b from-[#FAF9F6] to-white rounded-3xl border border-[#D9DCE1] shadow-xs">
+                    <div className="relative mb-5 group">
+                      <div className="w-44 h-44 sm:w-52 sm:h-52 rounded-2xl overflow-hidden shadow-xl border-2 border-[#80672E] ring-4 ring-[#80672E]/15 bg-[#FAF9F6]">
+                        <img 
+                          src={leader.profile.image} 
+                          alt={leader.profile.name}
+                          className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                          onError={(e) => {
+                            (e.target as HTMLElement).style.display = 'none';
+                          }}
+                        />
                       </div>
-                    ))}
+                      <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 px-3.5 py-1 bg-[#80672E] text-white text-[11px] font-bold uppercase tracking-wider rounded-full shadow-md whitespace-nowrap">
+                        {leader.role}
+                      </div>
+                    </div>
+
+                    <h3 className="font-serif text-2xl sm:text-3xl font-bold text-[#22262B] mt-2">
+                      {leader.profile.name}
+                    </h3>
+                    <span className="text-xs sm:text-sm font-semibold text-[#80672E] mt-0.5 block">
+                      {leader.profile.qualifications}
+                    </span>
+                    <span className="text-xs text-[#60656C] mt-1 block">
+                      {leader.trustPill}
+                    </span>
+
+                    {/* Quick Dossier Chips */}
+                    <div className="mt-6 pt-5 border-t border-[#D9DCE1] w-full flex flex-col gap-2.5 text-left text-xs text-[#60656C]">
+                      {leader.extraCredentials.map((c, i) => (
+                        <div key={i} className="flex items-center justify-between p-2 rounded-xl bg-white border border-[#D9DCE1]/70">
+                          <span className="font-semibold text-[#22262B]">{c.label}:</span>
+                          <span className="text-[11px] text-[#80672E] font-medium truncate ml-2">{c.val}</span>
+                        </div>
+                      ))}
+
+                      <div className="flex items-center gap-2 pt-2 text-xs text-[#60656C]">
+                        <Mail className="w-3.5 h-3.5 text-[#80672E] shrink-0" />
+                        <a href={`mailto:${leader.email}`} className="hover:text-[#80672E] hover:underline truncate">
+                          {leader.email}
+                        </a>
+                      </div>
+                      <div className="flex items-center gap-2 text-xs text-[#60656C]">
+                        <Phone className="w-3.5 h-3.5 text-[#80672E] shrink-0" />
+                        <a href={`tel:${leader.phone}`} className="hover:text-[#80672E] hover:underline font-semibold">
+                          {leader.phone}
+                        </a>
+                      </div>
+                    </div>
                   </div>
+
+                  {/* Right Column: Full Narrative Message & Key Strategic Commitments */}
+                  <div className="lg:col-span-8 space-y-6">
+                    
+                    {/* Masthead Ribbon */}
+                    <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#D9DCE1] pb-4">
+                      <div>
+                        <span className="text-xs uppercase font-bold text-[#80672E] tracking-wider block">
+                          Official Communication
+                        </span>
+                        <h4 className="font-serif text-xl sm:text-2xl font-bold text-[#22262B] mt-0.5">
+                          {leader.badgeText}
+                        </h4>
+                      </div>
+                      <span className="text-xs px-3 py-1 rounded-full bg-[#FAF9F6] border border-[#80672E]/30 text-[#80672E] font-bold">
+                        {leader.headerTag}
+                      </span>
+                    </div>
+
+                    {/* Featured Quote Callout Banner */}
+                    <div className="bg-[#FAF9F6] border-l-4 border-[#80672E] rounded-r-2xl p-5 sm:p-6 shadow-xs">
+                      <div className="flex items-start gap-3.5">
+                        <Quote className="w-7 h-7 text-[#80672E] shrink-0 opacity-80 mt-0.5" />
+                        <div>
+                          <p className="font-serif italic text-base sm:text-lg font-semibold text-[#22262B] leading-relaxed">
+                            "{leader.profile.quote}"
+                          </p>
+                          <span className="text-xs text-[#80672E] font-bold mt-2 block tracking-wide">
+                            — {leader.profile.quoteAuthor}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Special Bio Credentials for Principal */}
+                    {currentLeaderKey === 'principal' && (
+                      <div className="bg-[#FAF9F6] border border-[#D9DCE1] rounded-2xl p-4 sm:p-5 space-y-2">
+                        <div className="flex items-center gap-2 text-[#80672E] font-bold text-xs uppercase tracking-wide">
+                          <GraduationCap className="w-4 h-4" />
+                          <span>Academic Leadership & Research Profile</span>
+                        </div>
+                        <p className="text-xs text-[#60656C] leading-relaxed">
+                          {LEADERSHIP_PROFILES.principal.bio}
+                        </p>
+                      </div>
+                    )}
+
+                    {/* Authentic Narrative Paragraphs */}
+                    <div className="space-y-4 text-xs sm:text-sm text-[#60656C] leading-relaxed">
+                      {leader.profile.paragraphs?.map((p, idx) => (
+                        <p key={idx} className="text-justify">{p}</p>
+                      )) || <p>{leader.profile.message}</p>}
+                    </div>
+
+                    {/* Strategic Focus Areas & Institutional Commitments */}
+                    <div className="pt-4 border-t border-[#D9DCE1]">
+                      <span className="block text-xs font-bold text-[#22262B] uppercase tracking-wider mb-3">
+                        Strategic Priorities & Institutional Pillars:
+                      </span>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs text-[#60656C]">
+                        {leader.profile.focusAreas.map((f, i) => (
+                          <div key={i} className="flex items-start gap-2.5 bg-[#FAF9F6] p-3 rounded-xl border border-[#D9DCE1]/80 hover:border-[#80672E]/40 transition-colors">
+                            <Check className="w-4 h-4 text-[#80672E] shrink-0 mt-0.5" />
+                            <span className="font-medium text-[#22262B]">{f}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                  </div>
+
                 </div>
-              </div>
-            </div>
-          </div>
+              </motion.div>
+            );
+          })()}
 
         </section>
       )}
@@ -404,6 +667,28 @@ export const AboutView: React.FC<AboutViewProps> = ({
                 <span className="text-xs uppercase font-bold text-[#80672E]">Welfare & Leave Benefits</span>
                 <p className="text-xs text-[#60656C] mt-1">Casual leave, academic duty leave for attending national/international conferences, and maternity benefits.</p>
               </div>
+            </div>
+
+            {/* Official Faculty Roster Download Callout */}
+            <div className="bg-[#FAF9F6] border border-[#80672E]/30 rounded-2xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-[#80672E]/10 flex items-center justify-center text-[#80672E] shrink-0">
+                  <Users className="w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className="font-serif text-sm font-bold text-[#22262B]">Certified Faculty Roster & Teaching Appointments</h4>
+                  <p className="text-xs text-[#60656C]">AICTE & Anna University approved full faculty directory with qualifications and designations.</p>
+                </div>
+              </div>
+              <a
+                href={OFFICIAL_REGULATORY_DOCS.facultyDetails.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#80672E] hover:bg-[#664F18] text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-xs transition-all shrink-0 hover:scale-105"
+              >
+                <Download className="w-4 h-4" />
+                <span>View Faculty PDF</span>
+              </a>
             </div>
           </div>
         </section>

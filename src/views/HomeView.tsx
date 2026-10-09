@@ -9,14 +9,16 @@ import {
   LIVE_ANNOUNCEMENTS, 
   RECRUITERS_DATA,
   INSTITUTIONAL_STATISTICS,
-  LEADERSHIP_PROFILES
+  LEADERSHIP_PROFILES,
+  OFFICIAL_REGULATORY_DOCS,
+  INSTITUTIONAL_PILLARS
 } from '../data/officialCollegeData';
 import { PageView } from '../types/navigation';
 import { 
   ShieldCheck, Award, ArrowRight, Play, Pause, Volume2, 
   Sparkles, GraduationCap, Building2, BookOpen, Users, 
   Briefcase, CheckCircle2, Calendar, Megaphone, ExternalLink,
-  ChevronRight, PhoneCall, Compass, Check, MapPin
+  ChevronRight, PhoneCall, Compass, Check, MapPin, FileText, Target
 } from 'lucide-react';
 
 interface HomeViewProps {
@@ -259,7 +261,13 @@ export const HomeView: React.FC<HomeViewProps> = ({
             { label: 'Placement Offers', value: '453', suffix: '+', subtext: 'Annual Campus Drives' },
             { label: 'Active Scholars', value: '1500', suffix: '+', subtext: 'Across 13 Disciplines' },
             { label: 'Library Volumes', value: '29000', suffix: '+', subtext: 'Digital DELNET & IEEE' },
-            { label: 'Dedicated Faculty', value: '130', suffix: '+', subtext: 'PhD & Research Mentors' },
+            { 
+              label: 'Dedicated Faculty', 
+              value: '130', 
+              suffix: '+', 
+              subtext: 'PhD & Research Mentors',
+              docUrl: OFFICIAL_REGULATORY_DOCS.facultyDetails.url 
+            },
             { label: 'Successful Alumni', value: '3500', suffix: '+', subtext: 'Global Industry Leaders' },
           ].map((stat, i) => (
             <motion.div
@@ -269,19 +277,44 @@ export const HomeView: React.FC<HomeViewProps> = ({
               viewport={{ once: true }}
               variants={fadeInUp}
               custom={i}
-              className="bg-white border border-[#D9DCE1] rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:border-[#80672E]/50 transition-all shadow-xs hover:shadow-md"
+              className="bg-white border border-[#D9DCE1] rounded-2xl p-4 sm:p-5 flex flex-col justify-between hover:border-[#80672E]/50 transition-all shadow-xs hover:shadow-md group"
             >
-              <span className="text-xs font-semibold text-[#60656C] uppercase tracking-wider">
-                {stat.label}
-              </span>
+              <div className="flex items-center justify-between gap-1">
+                <span className="text-xs font-semibold text-[#60656C] uppercase tracking-wider">
+                  {stat.label}
+                </span>
+                {stat.docUrl && (
+                  <a
+                    href={stat.docUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="View Official Faculty Details PDF"
+                    className="text-[#80672E] hover:text-[#664F18] p-0.5 rounded transition-colors"
+                  >
+                    <FileText className="w-3.5 h-3.5" />
+                  </a>
+                )}
+              </div>
               <div className="my-2">
                 <span className="font-serif text-2xl sm:text-3xl font-bold text-[#80672E]">
                   {stat.value}{stat.suffix}
                 </span>
               </div>
-              <span className="text-[11px] text-[#60656C] leading-tight">
-                {stat.subtext}
-              </span>
+              {stat.docUrl ? (
+                <a
+                  href={stat.docUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[11px] text-[#80672E] hover:underline font-semibold inline-flex items-center gap-1 group-hover:text-[#664F18]"
+                >
+                  <span>{stat.subtext}</span>
+                  <ExternalLink className="w-2.5 h-2.5" />
+                </a>
+              ) : (
+                <span className="text-[11px] text-[#60656C] leading-tight">
+                  {stat.subtext}
+                </span>
+              )}
             </motion.div>
           ))}
         </div>
@@ -346,12 +379,19 @@ export const HomeView: React.FC<HomeViewProps> = ({
 
           {/* Right: Chairman & Administration Card */}
           <div className="lg:col-span-5">
-            <div className="bg-white border border-[#D9DCE1] rounded-2xl p-6 sm:p-8 shadow-md relative overflow-hidden">
+            <div className="bg-white border border-[#D9DCE1] rounded-3xl p-6 sm:p-8 shadow-md relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-[#FAF9F6] rounded-bl-full pointer-events-none" />
               
               <div className="flex items-center gap-4 mb-5">
-                <div className="w-16 h-16 rounded-2xl bg-[#80672E] text-white flex items-center justify-center font-serif text-2xl font-bold shadow-md shrink-0">
-                  PS
+                <div className="w-18 h-18 sm:w-20 sm:h-20 rounded-2xl overflow-hidden shadow-lg border-2 border-[#80672E]/40 ring-2 ring-[#80672E]/10 shrink-0 bg-[#FAF9F6]">
+                  <img 
+                    src={LEADERSHIP_PROFILES.chairman.image} 
+                    alt={LEADERSHIP_PROFILES.chairman.name}
+                    className="w-full h-full object-cover object-top"
+                    onError={(e) => {
+                      (e.target as HTMLElement).style.display = 'none';
+                    }}
+                  />
                 </div>
                 <div>
                   <span className="text-xs uppercase tracking-wider font-bold text-[#80672E] block">
@@ -363,43 +403,71 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   <span className="text-xs text-[#60656C]">
                     {LEADERSHIP_PROFILES.chairman.qualifications}
                   </span>
+                  <span className="text-[11px] text-[#A0A5AD] block">
+                    {LEADERSHIP_PROFILES.chairman.trust}
+                  </span>
                 </div>
               </div>
 
               <blockquote className="italic text-xs sm:text-sm text-[#60656C] leading-relaxed border-l-2 border-[#80672E] pl-3 mb-5">
-                "{LEADERSHIP_PROFILES.chairman.message.slice(0, 240)}..."
+                "{LEADERSHIP_PROFILES.chairman.quote}"
+                <span className="block text-[11px] text-[#80672E] font-bold not-italic mt-1">
+                  — Watchwords: Prosperity • Solidarity • Victory
+                </span>
               </blockquote>
 
-              <div className="space-y-2 pt-2 border-t border-[#D9DCE1]">
-                <div className="flex items-center justify-between text-xs text-[#22262B]">
-                  <span className="font-medium">Secretary:</span>
+              <div className="space-y-2.5 pt-3 border-t border-[#D9DCE1]">
+                <div 
+                  onClick={() => onNavigate('about', 'administration')}
+                  className="flex items-center justify-between text-xs text-[#22262B] p-2 rounded-xl hover:bg-[#FAF9F6] transition-colors cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <img 
+                      src={LEADERSHIP_PROFILES.secretary.image} 
+                      alt={LEADERSHIP_PROFILES.secretary.name} 
+                      className="w-6 h-6 rounded-full object-cover border border-[#80672E]/30"
+                    />
+                    <span className="font-medium">Secretary:</span>
+                  </div>
                   <span className="font-bold text-[#80672E]">{LEADERSHIP_PROFILES.secretary.name}</span>
                 </div>
-                <div className="flex items-center justify-between text-xs text-[#22262B]">
-                  <span className="font-medium">Principal:</span>
+
+                <div 
+                  onClick={() => onNavigate('about', 'administration')}
+                  className="flex items-center justify-between text-xs text-[#22262B] p-2 rounded-xl hover:bg-[#FAF9F6] transition-colors cursor-pointer"
+                >
+                  <div className="flex items-center gap-2">
+                    <img 
+                      src={LEADERSHIP_PROFILES.principal.image} 
+                      alt={LEADERSHIP_PROFILES.principal.name} 
+                      className="w-6 h-6 rounded-full object-cover border border-[#80672E]/30"
+                    />
+                    <span className="font-medium">Principal:</span>
+                  </div>
                   <span className="font-bold text-[#80672E]">{LEADERSHIP_PROFILES.principal.name}</span>
                 </div>
-                <div className="flex items-center justify-between text-xs text-[#22262B]">
+
+                <div className="flex items-center justify-between text-xs text-[#22262B] p-2">
                   <span className="font-medium">TNEA Counselling Code:</span>
-                  <span className="px-2 py-0.5 bg-[#FAF9F6] border border-[#80672E]/40 rounded font-bold text-[#80672E]">
+                  <span className="px-2.5 py-0.5 bg-[#FAF9F6] border border-[#80672E]/40 rounded font-bold text-[#80672E]">
                     {COLLEGE_DETAILS.counsellingCode}
                   </span>
                 </div>
               </div>
 
-              <div className="mt-5 pt-4 border-t border-[#D9DCE1] flex items-center justify-between">
+              <div className="mt-4 pt-4 border-t border-[#D9DCE1] flex items-center justify-between">
                 <button
-                  onClick={() => onNavigate('about', 'audit-statements')}
+                  onClick={() => onNavigate('about', 'administration')}
                   className="text-xs text-[#80672E] font-semibold hover:underline flex items-center gap-1 cursor-pointer"
                 >
-                  <span>Audit Statements 2020-2024</span>
+                  <span>Explore Administration Desks</span>
                   <ArrowRight className="w-3 h-3" />
                 </button>
                 <button
-                  onClick={() => onNavigate('about', 'committees')}
-                  className="text-xs text-[#60656C] hover:text-[#22262B] font-medium"
+                  onClick={() => onNavigate('about', 'audit-statements')}
+                  className="text-xs text-[#60656C] hover:text-[#22262B] font-medium cursor-pointer"
                 >
-                  Statutory Committees
+                  Audit Statements
                 </button>
               </div>
             </div>
@@ -408,7 +476,96 @@ export const HomeView: React.FC<HomeViewProps> = ({
         </div>
       </section>
 
-      {/* 5. ACADEMIC PROGRAMS SHOWCASE (9 UG & 4 PG) */}
+      {/* 5. INSTITUTIONAL FOUNDATION PILLARS: VISION, MISSION & QUALITY POLICY */}
+      <section className="w-full space-y-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div>
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#80672E]/10 border border-[#80672E]/20 text-[#80672E] text-xs font-bold uppercase tracking-wider mb-2">
+              <Sparkles className="w-3.5 h-3.5" />
+              <span>Institutional Ethos & Core Principles</span>
+            </div>
+            <h2 className="font-serif text-2xl sm:text-4xl font-bold text-[#22262B]">
+              Vision, Mission & Quality Policy
+            </h2>
+            <p className="text-xs sm:text-sm text-[#60656C] mt-1 max-w-2xl">
+              Rooted in our motto <strong className="text-[#80672E]">"Prosperity • Solidarity • Victory"</strong>, our foundation guides students toward global engineering competency and ethical leadership.
+            </p>
+          </div>
+
+          <button
+            onClick={() => onNavigate('about', 'vision-mission')}
+            className="inline-flex items-center gap-2 text-xs font-bold text-[#80672E] hover:text-[#664F18] hover:underline shrink-0 cursor-pointer self-start md:self-auto"
+          >
+            <span>Explore Vision & Mission Hub</span>
+            <ArrowRight className="w-3.5 h-3.5" />
+          </button>
+        </div>
+
+        {/* 3 Foundation Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {INSTITUTIONAL_PILLARS.map((pillar, idx) => (
+            <motion.div
+              key={pillar.id}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fadeInUp}
+              custom={idx}
+              className="bg-white border-2 border-[#D9DCE1] hover:border-[#80672E]/50 rounded-3xl p-6 sm:p-7 flex flex-col justify-between shadow-xs hover:shadow-xl transition-all duration-300 group"
+            >
+              <div>
+                {/* Header with authentic icon image & badge */}
+                <div className="flex items-center justify-between gap-3 mb-4">
+                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#FAF9F6] to-[#F0E8D5] border border-[#80672E]/30 p-2.5 flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform">
+                    <img 
+                      src={pillar.iconImage} 
+                      alt={pillar.title} 
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  <span className="px-2.5 py-1 rounded-full bg-[#FAF9F6] border border-[#D9DCE1] text-[#80672E] text-[10px] font-bold uppercase tracking-wider">
+                    {pillar.badge}
+                  </span>
+                </div>
+
+                <h3 className="font-serif text-xl font-bold text-[#22262B] group-hover:text-[#80672E] transition-colors mb-1">
+                  {pillar.title}
+                </h3>
+                <span className="text-xs font-semibold text-[#80672E] block mb-3">
+                  {pillar.subtitle}
+                </span>
+
+                <blockquote className="italic font-serif text-xs text-[#22262B] bg-[#FAF9F6] border-l-2 border-[#80672E] p-3 rounded-r-xl leading-relaxed mb-4">
+                  "{pillar.statement}"
+                </blockquote>
+
+                {pillar.points && (
+                  <ul className="space-y-2 text-xs text-[#60656C]">
+                    {pillar.points.map((pt, pIdx) => (
+                      <li key={pIdx} className="flex items-start gap-2">
+                        <Check className="w-3.5 h-3.5 text-[#80672E] shrink-0 mt-0.5" />
+                        <span className="leading-snug">{pt}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+
+              <div className="mt-5 pt-4 border-t border-[#D9DCE1]">
+                <button
+                  onClick={() => onNavigate('about', 'vision-mission')}
+                  className="w-full py-2.5 px-4 rounded-xl bg-[#FAF9F6] hover:bg-[#80672E] hover:text-white text-[#80672E] text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer shadow-2xs"
+                >
+                  <span>Learn More</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* 6. ACADEMIC PROGRAMS SHOWCASE (9 UG & 4 PG) */}
       <section className="w-full space-y-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
